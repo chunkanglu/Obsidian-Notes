@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC10
+---
 # Prototype
 - Can be
 	- series of sketches
@@ -34,7 +38,8 @@
 - Wireframe
 
 ### Conceptual Design
-- features of product, what concets are needed to understand product
+Conceptually how will the user feel or different aspects when they use the product
+- features of product, what concepts are needed to understand product
 - details of the design
 - mood board to capture feel
 
@@ -46,6 +51,7 @@
 - what data is needed to perform task
 
 ### Concrete Design
+Does the actual design follow the guidelines, accessible
 - how design actually looks
 - more on look and feel
 	- accessibility
@@ -58,3 +64,4 @@
 - visual representations
 - experience map drawn as a wheel or timeline
 	- keep user and task in mind
+![[experience_map.png]]

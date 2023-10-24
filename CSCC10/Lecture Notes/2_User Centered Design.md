@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC10
+---
 # Different types of design
 ## Interaction Design
 - Solutions centered on interface and human interaction with user interface
@@ -21,6 +25,10 @@
 #### Stakeholders
 - Identify stakeholders (not only users, but also other people like executives)
 - Involving stakeholders
+- Allows us to correct and identify problems
+- Give them realistic expectations
+	- They may be more likely to forgive problems if they also understand
+- Makes users bond more and accept the product
 #### User Involvement
 - Multiple levels of user involvement
 	- in design team
@@ -41,14 +49,21 @@
 	- Agile development, quick short bursts of user involvement, but less than others
 # 3 Principles Gould and Lewis
 - Early focus on users and tasks
+	- study and identify characteristics
 - Empirical measurement 
+	- measure user performance to scenarios, simulations and prototypes
 - Iterative design
+	- iterate and fix problems found from tests
 
 # Design Lifecycle Model
 1. Discover requirements
+	1. analysis through surveys, interviews, task analysis, ...
 2. Design Alternatives
+	1. wireframing, storyboarding, ...
 3. Prototyping
+	1. low/medium fidelity interactive prototype
 4. Evaluating
+	1. Usability testing, heuristic evaluation
 5. Repeat
 
 # Gathering Requirements
@@ -74,11 +89,17 @@
 - To make sure we accommodate for all types of users
 - More realistic context on users
 - Puts everyone on the same page to build for target audience in mind
+# Scenarios
+- non-general story that illustrates some specific user(s) (with specific characteristics) using the system
+	- abstract away fine details
+- make realistic and not idealized
 
 # Task Analysis
 - Breaking product into tasks and subtasks for what interfaces are needed to build
 - how interfaces connect
 - Work breakdown structure
+#### Hierarchical Task Analysis (HTA)
+ ![[hta_example.png]]
 
 # Data Gathering
 - Types
@@ -86,8 +107,21 @@
 	- Focus Groups
 	- Survey
 	- Direct/Indirect Observations (Data recording)
-- Cross check between different techniques
+- Identify what info we want to gather
+- Identify participants and relationship with them
+- Triangulation - Cross check between different techniques
 - Pilot studies to test technique
+###### Interview
+- structured, unstructured, semi-structured
+- good for going in-depth
+- time consuming and hard to prepare
+###### Focus Groups
+- Group interviews
+- Consensus view, but there can be loud minority swaying balance
+- Using props like a prototype or scenario to enrich experience
+###### Surveys
+- easy to create and distribute for responses
+- sample population issues
 ###### Observation
 - Direct observation in the field
 	- see users in their actual setting (as an insider among them or outsider)

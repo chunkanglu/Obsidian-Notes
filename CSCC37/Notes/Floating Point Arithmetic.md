@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC37
+---
 ## Representation of Non-Negative Integers (in Computing)
 For a base $b$ system, $b \in \mathbb{N}, b > 0$.
 For some $x$ in base $b$, $x \ge 0, x \in \mathbb{N}, 0 \le d_i < b$ for $i = 0, 1, ... n$, $x = (d_n, d_{n-1}, ..., d_1, d_0)_b = d_n \cdot b^n + ... + d_0 \cdot b^0$ is the binary to decimal conversion
@@ -60,7 +64,7 @@ A floating point number is **normalized** if $d_1$ is non-zero unless all digits
 
 ## Domain of Floating Point Numbers
 Largest possible Floating point number in absolute value is:
-- $(\underbrace{aa\ldots a}_\text{t})b \cdot b^{(\underbrace{aa \ldots a}_s)_b}$ where first set of $a$ is $t$ times, second set of $a$ is $s$ times
+- $(\underbrace{aa\ldots a}_\text{t})_b \cdot b^{(\underbrace{aa \ldots a}_s)_b}$ where first set of $a$ is $t$ times, second set of $a$ is $s$ times
 Smallest possible Floating point number in absolute value (non-zero), ie. closest value to 0 is:
 - $(\underbrace{.100 \ldots 0}_t)_b \cdot b^{-(\underbrace{aa \ldots a}_s)_b}$ normalized, where $a = b-1$
 - $(\underbrace{.00 \ldots 1}_t)_b \cdot b^{-(\underbrace{aa \ldots a}_s)_b}$ non-normalized

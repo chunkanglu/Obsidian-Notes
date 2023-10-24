@@ -28,7 +28,8 @@ $A - B$
 #### Division
 If problem has *every* or *all* then likely use division
 $A / B = \pi_{x}(A) - \pi_{x}((\pi_{x}(A) \times B) - A)$
-- **This one is kinda <mark style="background: #FF5582A6;">FUCKED</mark>**
+- Suppose $R / S = T$. $T$ is essentially: "what values of  the other columns can we Cartesian product with $S$ such that all rows are in $R$".
+- Columns of $S$ must be a subset of columns in $R$
 #### Theta Join
 Basically natural join but instead of condition being equal on same columns, it is join when satisfying condition $theta$
 $A \bowtie_{\theta} B = \sigma_{\theta}(A \times B)$

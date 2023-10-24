@@ -7,7 +7,7 @@
 	- Annealed-mean of distribution
 - Tested with colorization Turing test with humans
 - self supervised representation learning
-![[Pasted image 20231015110947.png]]
+![[colorful_image_paper_arch.png]]
 
 # Approach
 - Distances in CIE $Lab$ color space model perceptual distance, how different human eyes preceive it

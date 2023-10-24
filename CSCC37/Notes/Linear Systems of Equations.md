@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC37
+---
 > Solve $A\vec{x} = \vec{b}$ where $A$ is a square matrix.
 
 We have system of equations:

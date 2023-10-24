@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC37
+---
 # What is Numerical Analysis
 Used for examining Physical Systems as Mathematical models (for simulation) since analyzing the physical system directly is usually hard and costly
 - Weather/Climate Change prediction

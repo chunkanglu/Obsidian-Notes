@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC10
+---
 # Usability of Interactive Systems
 > How easy, convenient, intuitive user interfaces are to use.
 - How people understand and use the technology, **not the technology itself**
@@ -48,14 +52,14 @@
 - Consistency
 - Portability
 	- users can learn across different environments
-
+##### LEMES
 1.  Learnability
 	- How quick to learn (intuitive)
 2. Efficiency
-3. Rate of errors
-4. Memorability
+3. Memorability
 	- Can one remember how to use after not using for a period of time
 	- How easy to remember how to use, once learned
+4. Errors
 5. Satisfaction
 	- How pleasant to use
 ## User Experience
@@ -91,4 +95,29 @@
 - Font size, brightness, color, distraction
 - Gameafication for children learning
 # Guidelines, Principles, Theories
-
+## Guidelines
+- Focused advice about good and bad practices
+- promote consistency
+- based on best practices
+- can be too specific, incomplete, or hard to apply
+- Accessibility Guidelines - non-text elements should have text counterpart
+- Mobile HCI Guidelines - designing for smaller screens
+## Principles
+- Strategies or rules to compare design alternatives
+- fundamental principles
+	- Determine user skill level (first time, knowledgeable, physical capabilities)
+	- Identify the tasks (frequency, difficulty)
+	- Choose interaction style (direct manipulation, form fill, commands, natural language)
+- 5 primary interaction styles
+- 8 golden rules of interface design
+	- Consistency
+	- universal usability
+	- offer informative feedback
+	- dialog yield closure 
+	- prevent errors
+	- easy reversal of actions
+	- keep user in control
+	- reduce short term memory load
+## Theories
+- High level, broad frameworks used when designing and evaluating
+ - 

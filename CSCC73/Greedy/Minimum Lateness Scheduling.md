@@ -1,4 +1,4 @@
-We have $n$ jobs, each with a duration $t(i)$ and deadline $d(i)$. All jobs must start at or after release time $r$. We want to minimize the total lateness over all jobs (ie. $\sum_{\forall i} \max{(start(i)+t(i)-d(i), 0)}$). 
+We have $n$ jobs, each with a duration $t(i)$ and deadline $d(i)$. All jobs must start at or after release time $r$. We want to minimize the maximum lateness over all jobs (ie. $\sum_{\forall i} \max{(start(i)+t(i)-d(i), 0)}$). 
 
 ```
 MINLATENESS(t[1..n], d[1..n], r):

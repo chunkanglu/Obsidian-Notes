@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC10
+---
 > Highly iterative exploration of many design concepts
 
 ## Stages

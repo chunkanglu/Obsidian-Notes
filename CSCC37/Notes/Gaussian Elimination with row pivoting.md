@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC37
+---
 - What if at some stage of the elimination the pivot element is exactly zero?
 	- In the algorithm above, we would have a divide by zero error
 - Alternatively, a similar (but more common) problem if the pivot element element is very small in magnitude
