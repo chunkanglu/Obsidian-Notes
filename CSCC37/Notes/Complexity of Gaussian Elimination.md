@@ -7,7 +7,7 @@ We will count *multiplication & addition* pairs ($mx + b$) a **_flop_** (floatin
 - The flop is the most expensive step (much more than all other operations used in the process like comparison or row swaps)
 	- **See below, factorization is $\frac{n}{3}$ times as much compared to the solves**
 - Assuming that all multiplications cost the same amount
-# Computing the LU fractorization
+# Computing the LU factorization
 #### Stage 1
 $$
 \begin{bmatrix}

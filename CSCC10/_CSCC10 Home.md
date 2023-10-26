@@ -27,3 +27,4 @@ In-class car monitor prototype
 Reading Week
 # Week 7
 Presenting prototypes from Week 5
+# Week 8

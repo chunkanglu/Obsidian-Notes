@@ -1,4 +1,11 @@
 {
   "attachmentFolderPath": "_Attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false
 }

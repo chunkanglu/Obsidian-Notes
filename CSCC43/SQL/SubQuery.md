@@ -52,8 +52,33 @@ WHERE Took.oID IN %% or NOT IN %%
 	);
 ```
 ## EXISTS Operator
-- Iff subquery result has at least one tuple
+- If subquery result has at least one tuple
 - Kind of like an if-statement for each outer query output row
+### Example
+You can think of a correlated subquery as a loop (although that is not necessarily how it actually runs). Consider this query:
+
+```sql
+select e.*
+from emp e
+where Exists (select 1
+              from dept d
+              where e.eid = d.deptid
+             );
+```
+
+It is saying: "For each `emp` record in the outer query, check if `eid` has a matching `dept.deptid`." If there is no match -- because `e.eid` is `NULL` or the value is not in `dept`, then it returns no rows.
+
+Consider the query without the correlation clause:
+
+```sql
+select e.*
+from emp e
+where Exists (select 1
+              from dept d
+             );
+```
+
+This is saying: "Return a row in `emp` if _any_ row exists in `dept`." There is no correlation clause, so either all rows are returned or none are returned.
 ### Example
 Correlated subquery
 - Student is the inner query references the Student in outer query
@@ -66,7 +91,6 @@ WHERE EXISTS (
 	WHERE Student.sid = Took.sid and grade > 85; 
 )
 ```
-**TODO:** FIND A BETTER EXAMPLE
 ## Scoping
 - Evaluated inside out
 - If you need to use result from inner query in outer one, use naming

@@ -24,7 +24,7 @@ This all relates to the [[User Experience]].
 - Common actions, wording, style across product
 ## Portability
 - System should be available across different devices in different hardware and software environments
-# Usability Goals/Measures (LEMES)
+# Nielsen Usability Measures (LEMES)
 ## Learnability
 - How long it takes to learn
 ## Efficiency
