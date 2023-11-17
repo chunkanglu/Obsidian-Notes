@@ -77,7 +77,7 @@ L_2 (L_1 A) =
 \end{bmatrix}
 $$
 Remaining elements in the lower right corner submatrix of $L_2 L_1 A$ are very large in magnitude unlike the other elements.
-- Round off error can be shown to be directly proportional to the largest elements that occur during the factorization
+- **Round off error can be shown to be directly proportional to the largest elements that occur during the factorization**
 
 Swap Rows 2 and 3
 $$
@@ -85,7 +85,7 @@ P_{2} L_{1} A =
 \begin{bmatrix}
 1 & 2 & 1 \\
 0 & 1 & 2 \\
-0 & 10^{16} & 3 
+0 & 10^{-16} & 3 
 \end{bmatrix}
 ,
 L_{2} = 
@@ -239,7 +239,7 @@ P = P_{2} P_{1}, L = L_{2} \tilde{L_{1}}
 &\iff PA = LU
 \end{align}
 $$
-> Claim: $\tilde{L_{1}} = P_{2} L_{1} P_{2}$ is a Gauss Transform and is $L_{1}$ with two multipliers swapped. This generalizes to $n$ by $n$.
+> Claim: $\tilde{L_{1}} = P_{2} L_{1} P_{2}$ is a Gauss Transform and is $L_{1}$ with two multipliers specified by $P_2$ swapped. This generalizes to $n$ by $n$ where $\tilde{L}_k = P_{n-1}P_{n-2} \ldots L_k \ldots P_{n-2} P_{n-1}$.
 > **Proof:** <mark style="background: #FFB86CA6;">See A2</mark>
 > **Example:**
 $$
@@ -308,7 +308,6 @@ $$
 
 ## Special Case
 **What happens if at some stage $k$ of the elimination the diagonal and everything below it is exactly zero?**
-<mark style="background: #FFB8EBA6;">𝓖𝓲𝓿𝓮 𝓾𝓹, 𝓼𝓽𝓸𝓹, 𝓰𝓮𝓽 𝓪 𝓵𝓲𝓯𝓮</mark>
 
 Just skip the column.
 However, $U_{kk} = 0 \implies U$ is singular, but we still have a factorization.

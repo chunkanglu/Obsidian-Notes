@@ -50,7 +50,7 @@ Used for examining Physical Systems as Mathematical models (for simulation) sinc
 			- Time complexity: $O(n^3)$
 	- *Iterative Methods
 		- Alternative to direct methods that may be faster or more stable in certain scenarios
-		- *Some algorithm we don't have name for*
+		- *Some algorithm we don't have name for (Jacobian method)*
 			- Split $A = L + D + U$, where $L$ is *strict lower triangle matrix* (diagonal is also 0), $D$ is a *diagonal matrix*, $U$ is a *strict upper triangle matrix*
 			  $$
 			 \begin{aligned}
@@ -68,7 +68,7 @@ Used for examining Physical Systems as Mathematical models (for simulation) sinc
 				- Start with initial guess of $\vec{x_{0}} = 0$
 				- Time complexity hinges on how long until convergence
 					- if less than $n^2$ then faster than Gaussian Elimination else slower
-## Single non-Linear Equations
+## [[Single Non-Linear Equations]]
 - Given $F: \mathbb{R} \rightarrow \mathbb{R}$, Solve $F(x) = 0$ for $x \in \mathbb{R}$
 	- Is there solution? If so, how many?
 - Usually no simple, closed form formula

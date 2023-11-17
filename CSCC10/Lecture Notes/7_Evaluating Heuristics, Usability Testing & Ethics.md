@@ -76,3 +76,19 @@ Review guided by set of recognized usability principles (heuristics)
 - checklist of what to evaluate
 - experts should split off, go though and find issues
 - consolidate findings after everyone finished
+
+Note:
+- Expert bias (not the actual users)
+- Time consuming (at least 3 hours) and getting a hold of experts
+- Can be expensive
+- Few ethical issues to consider since users not involved
+- Key problems may get missed
+
+# Cognitive Walkthrough
+- Test small parts of product
+- Test how users are able to learn (learnability)
+- Present aspect of design & give scenario, and expert walks through the scenario with interface
+	- Will correct action be sufficiently evident to the user?
+	- Will the user notice that the correct action is available?
+	- Will the user associate and interpret the response from the action correctly?
+

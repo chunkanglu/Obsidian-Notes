@@ -97,7 +97,7 @@ $$\delta = \frac{x - Fl(x)}{x}, Fl(x) = x(1-\delta)$$
 $\delta$ is the Relative Round off
 - can be bound independently of $x$
 	- $\delta < b^{1-t}$ for truncated normalized floating point numbers
-	- $|\delta| < \frac{1}{2}b^{1-t}$
+	- $|\delta| < \frac{1}{2}b^{1-t}$ for rounded normalized
 
 ## Machine Arithmetic
 Let $x, y \in \mathbb{R}$ and $Fl(x), Fl(y) \in \mathbb{R}_b(t,s)$

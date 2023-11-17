@@ -8,30 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b49f69d778621a15",
+            "id": "306f49abdb1f7b5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Assignments/A2.md",
+                "file": "CSCC37/Assignments/A3.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "10f9e7adf8eb6188",
+            "id": "dd1e843d7866f143",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Notes/Complexity of Gaussian Elimination.md",
+                "file": "CSCC37/Assignments/A3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f18d2ba516ea50d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC37/Notes/Course Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "superkey",
+                "query": "\\epsilon",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 216.50043487548828
   },
   "right": {
     "id": "0570b741f2d521f6",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC37/Assignments/A2.md",
+                "file": "CSCC37/Assignments/A3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC37/Assignments/A2.md",
+                "file": "CSCC37/Assignments/A3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC37/Assignments/A2.md"
+                "file": "CSCC37/Assignments/A3.md"
               }
             }
           },
@@ -158,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC37/Assignments/A2.md"
+                "file": "CSCC37/Assignments/A3.md"
               }
             }
           }
@@ -167,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
+    "width": 351.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -181,52 +193,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b49f69d778621a15",
+  "active": "dd1e843d7866f143",
   "lastOpenFiles": [
-    "CSCC37/Notes/Complexity of Gaussian Elimination.md",
-    "CSCC37/Assignments/A2.md",
-    "CSCC37/Notes/Linear Systems of Equations.md",
+    "CSCC37/Notes/Approximation and Interpolation.md",
+    "CSCC37/Assignments/A3.md",
+    "CSCC37/Notes/Course Overview.md",
+    "CSCC37/Notes/Condition Number.md",
+    "CSCC37/Notes/Newton's Method.md",
+    "CSCC37/_CSCC37 Home.md",
+    "CSCC43/Database Design Theory.md",
+    "LINA01/Intro to Speech Production Processes.md",
+    "LINA01/Phonetics Vowels.md",
+    "CSCC10/Lecture Notes/10_Social Computing & Data Visualization.md",
+    "CSCC10/Lecture Notes/8_Data Analysis & Experimental Design.md",
+    "CSCC10/Lecture Notes/9_Interfaces.md",
+    "CSCC37/Notes/Hybrid Method.md",
+    "CSCC37/Notes/Rate of Convergence Theorem.md",
+    "Untitled 2.md",
+    "CSCC37/Notes/Single Non-Linear Equations.md",
+    "CSCC37/Notes/Vector & Matrix Norms.md",
+    "CSCC37/Notes/Floating Point Arithmetic.md",
+    "Excalidraw/Drawing 2023-11-14 09.56.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-13 18.58.15.excalidraw.md",
+    "CSCC37/Assignments/A3_1c.py",
     "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
     "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
-    "CSCC43/Database Key Types.md",
-    "CSCC37/Notes/Floating Point Arithmetic.md",
-    "CSCC37/Notes/Course Overview.md",
+    "CSCC37/Notes/Linear Systems of Equations.md",
+    "CSCC37/Notes/Iterative Refinement of Linear System Solution.md",
+    "CSCC37/Past Material/Fall 2020 Midterm.md",
     "CSCC37/Notes/Numerical Singularity (vs. Exact Singularity).md",
-    "CSCC43/Worksheet/Week 5 - joins and Subqueries.md",
-    "CSCC43/Relational Model.md",
-    "CSCC43/Relational Algebra.md",
-    "CSCC43/Overview.md",
-    "CSCC43/Worksheet/Intro to SQL.md",
-    "CSCC43/SQL/Views.md",
-    "CSCC43/SQL/SubQuery.md",
-    "CSCC43/SQL/SQL.md",
-    "CSCC43/SQL/Set (Bag) Operations.md",
-    "CSCC43/SQL/Removing Duplicates.md",
-    "CSCC43/SQL/Pattern Matching.md",
-    "CSCC43/SQL/ORDER BY.md",
-    "CSCC43/SQL/NULL values.md",
-    "CSCC43/SQL/Joins.md",
-    "CSCC43/SQL/HAVING.md",
-    "CSCC43/SQL/Grouping & Aggregation.md",
-    "CSCC43/Worksheet/Relational Algebra.md",
+    "_Attachments/Pasted image 20231110120737.png",
+    "_Attachments/Pasted image 20231110113757.png",
+    "_Attachments/Pasted image 20231110112259.png",
+    "_Attachments/Week 10, Translate ER into DB Schema.pdf",
+    "_Attachments/Pasted image 20231109201252.png",
+    "_Attachments/Pasted image 20231109200745.png",
+    "_Attachments/Pasted image 20231109195957.png",
+    "_Attachments/Pasted image 20231109195624.png",
+    "_Attachments/Pasted image 20231109195321.png",
+    "_Attachments/Pasted image 20231109194703.png",
+    "CSCC43/Entity-Relationship",
+    "_Attachments/Pasted image 20231108204652.png",
+    "LINA01",
+    "_Attachments/Tutorial Week 9.pdf",
+    "_Attachments/cscC37-F20-termtest.pdf",
+    "CSCC37/Past Material",
     "CSCC43/Worksheet/Week5Sol.pdf",
-    "_Attachments/experience_wheel.png",
     "CSCC10/Notes",
     "CSCC37/Notes",
-    "CSCC10/Lecture Notes",
-    "Untitled.canvas",
-    "Excalidraw",
-    "_Attachments/null_check_constraint.png",
-    "CSCC37/Assignments",
-    "_Attachments/counting_inversion_problem.png",
-    "_Attachments/experience_map.png",
-    "_Attachments/hta_example.png",
-    "_Attachments/colorful_image_paper_arch.png",
-    "_Attachments",
-    "CSCC73/Images",
-    "UTMIST Colorization/Pasted image 20231015110947.png",
-    "Pasted image 20231015110947.png",
-    "UTMIST Colorization/Papers",
-    "UTMIST Colorization"
+    "Untitled.canvas"
   ]
 }

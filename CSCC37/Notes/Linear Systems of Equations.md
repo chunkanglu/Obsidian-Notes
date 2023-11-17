@@ -94,7 +94,7 @@ We have $L_{n-1}L_{n-2} \ldots L_2 L_1 A = U$
 $$
 A = \underbrace{(L_1^{-1} L_2^{-1} \ldots L_{n-1}^{-1})}_{L} U
 $$
-> *Lemma 1:*  If $L_i$ is a Gauss Transform, then $L_i^{-1}$ exists and also is a Gauss Transform. Furthermore, computing $L_i^{-1}$ essentially is **free** in constant time.
+> *Lemma 1:*  If $L_i$ is a Gauss Transform, then $L_i^{-1}$ exists and also is a Gauss Transform. Furthermore, computing $L_i^{-1}$ essentially is **free** in constant time by negating multipliers.
 > *Proof:* <mark style="background: #FFB86CA6;">Assignment 2 and in TB</mark>
 
 > *Lemma 2:* If $L_i$ and $L_j$ are Gauss Transforms, and $i < j$ (multiply right to left), then $L_i L_j = L_i + L_j - I$ ($I$ is the identity). Note that the $i$th column and $j$th column don't overlap so technically nothing is added. Essentially **free**, in constant time.
@@ -108,3 +108,5 @@ For repeated operation with same $A$ but different $\vec{b}$, by using LU Factor
 - Forward and backward substitution are much cheaper
 - Thus if we have several linear systems where $A$ does not change, we can save on costs this way by only factoring once.
 
+# Row Pivoting
+[[Gaussian Elimination with row pivoting]]
