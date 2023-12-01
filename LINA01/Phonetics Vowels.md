@@ -2,7 +2,9 @@
 tags:
   - LINA01
 ---
->![Will be given consonant and vowel ipa charts without labels in exam]
+Will be given consonant and vowel ipa charts without labels in exam
+
+
 Bracketing:
 - square [m] actual sound we produce
 - /m/ abstract representation of sound (phoneme)

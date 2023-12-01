@@ -13,38 +13,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Assignments/A3.md",
+                "file": "CSCC37/Assignments/A4.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dd1e843d7866f143",
+            "id": "13c4c182aa4e51dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Assignments/A3.md",
+                "file": "CSCC37/Notes/Numerical Integration (Quadrature).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f18d2ba516ea50d4",
+            "id": "bad00ddfa80dfcc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Notes/Course Overview.md",
+                "file": "CSCC43/Assignments/A3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25672ef4d94a724e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC37/Notes/Approximation and Interpolation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\epsilon",
+                "query": "\"entity\"",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -110,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC37/Assignments/A3.md",
+                "file": "CSCC37/Assignments/A4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC37/Assignments/A3.md",
+                "file": "CSCC37/Assignments/A4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC37/Assignments/A3.md"
+                "file": "CSCC37/Assignments/A4.md"
               }
             }
           },
@@ -170,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC37/Assignments/A3.md"
+                "file": "CSCC37/Assignments/A4.md"
               }
             }
           }
@@ -193,54 +204,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd1e843d7866f143",
+  "active": "306f49abdb1f7b5d",
   "lastOpenFiles": [
     "CSCC37/Notes/Approximation and Interpolation.md",
-    "CSCC37/Assignments/A3.md",
-    "CSCC37/Notes/Course Overview.md",
-    "CSCC37/Notes/Condition Number.md",
-    "CSCC37/Notes/Newton's Method.md",
+    "LINA01/Review Seminar 2.md",
+    "CSCC37/Notes/Numerical Integration (Quadrature).md",
+    "CSCC37/Assignments/A4.md",
+    "CSCC43/Assignments/A3.md",
     "CSCC37/_CSCC37 Home.md",
+    "CSCC43/Normalization.md",
+    "CSCC43/NoSQL.md",
     "CSCC43/Database Design Theory.md",
+    "LINA01/Syllable Structure.md",
+    "_Attachments/Pasted image 20231130152930.png",
+    "_Attachments/Pasted image 20231130152333.png",
+    "_Attachments/Pasted image 20231130152129.png",
+    "_Attachments/Pasted image 20231130151949.png",
+    "_Attachments/Pasted image 20231130151816.png",
+    "_Attachments/Pasted image 20231130151710.png",
+    "_Attachments/Pasted image 20231130151510.png",
+    "_Attachments/Pasted image 20231130151110.png",
+    "_Attachments/Pasted image 20231130150530.png",
+    "_Attachments/Pasted image 20231130150231.png",
+    "LINA01/Phonetics - Speech Sounds.md",
     "LINA01/Intro to Speech Production Processes.md",
-    "LINA01/Phonetics Vowels.md",
+    "CSCC10/Lecture Notes/Final review.md",
+    "CSCC43/Entity-Relationship/ER Model Database Design.md",
     "CSCC10/Lecture Notes/10_Social Computing & Data Visualization.md",
-    "CSCC10/Lecture Notes/8_Data Analysis & Experimental Design.md",
     "CSCC10/Lecture Notes/9_Interfaces.md",
-    "CSCC37/Notes/Hybrid Method.md",
-    "CSCC37/Notes/Rate of Convergence Theorem.md",
-    "Untitled 2.md",
-    "CSCC37/Notes/Single Non-Linear Equations.md",
-    "CSCC37/Notes/Vector & Matrix Norms.md",
-    "CSCC37/Notes/Floating Point Arithmetic.md",
-    "Excalidraw/Drawing 2023-11-14 09.56.18.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-13 18.58.15.excalidraw.md",
+    "CSCC43/Entity-Relationship/ER into DB schema.md",
+    "LINA01/Phonetics Vowels.md",
+    "CSCC43/_CSCC43 Home.md",
+    "CSCC43/Key - Definition from SO.md",
+    "CSCC43/Worksheet/Week 11.md",
+    "CSCC43/SQL/Database Manipulation/Database Definition Language.md",
+    "CSCC43/SQL/Database Manipulation/Normalization Theory.md",
+    "CSCC43/SQL/Database Manipulation/Modifying a Database.md",
+    "LINA01/Phonetics 2.md",
+    "CSCC37/Assignments/A3.md",
+    "_Attachments/week11_tutorial.pdf",
+    "CSCC43/Assignments",
     "CSCC37/Assignments/A3_1c.py",
-    "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
-    "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
-    "CSCC37/Notes/Linear Systems of Equations.md",
-    "CSCC37/Notes/Iterative Refinement of Linear System Solution.md",
-    "CSCC37/Past Material/Fall 2020 Midterm.md",
-    "CSCC37/Notes/Numerical Singularity (vs. Exact Singularity).md",
-    "_Attachments/Pasted image 20231110120737.png",
-    "_Attachments/Pasted image 20231110113757.png",
-    "_Attachments/Pasted image 20231110112259.png",
     "_Attachments/Week 10, Translate ER into DB Schema.pdf",
-    "_Attachments/Pasted image 20231109201252.png",
-    "_Attachments/Pasted image 20231109200745.png",
-    "_Attachments/Pasted image 20231109195957.png",
-    "_Attachments/Pasted image 20231109195624.png",
-    "_Attachments/Pasted image 20231109195321.png",
-    "_Attachments/Pasted image 20231109194703.png",
     "CSCC43/Entity-Relationship",
-    "_Attachments/Pasted image 20231108204652.png",
     "LINA01",
     "_Attachments/Tutorial Week 9.pdf",
     "_Attachments/cscC37-F20-termtest.pdf",
     "CSCC37/Past Material",
     "CSCC43/Worksheet/Week5Sol.pdf",
-    "CSCC10/Notes",
-    "CSCC37/Notes",
     "Untitled.canvas"
   ]
 }

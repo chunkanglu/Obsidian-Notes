@@ -26,7 +26,7 @@ $x \rightarrow y$ is a non-trivial functional dependency $\iff x \cap y = \empty
 $A \rightarrow B$
 $AB \rightarrow C$
 ### Semi-Trivial FD
-$x \rightarrow y$ is a semi-trivial functional dependency $\iff x \cap y \ne \emptyset$ and $y \subseteq x$
+$x \rightarrow y$ is a semi-trivial functional dependency $\iff x \cap y \ne \emptyset$
 **Examples:**
 $BC \rightarrow BCD$
 
@@ -69,7 +69,7 @@ $(CF)^+ = \{ C, F, G, A, D, E \}$
 $BG^+ = \{ B, G, A, C, D \}$
 $AF^+ = \{ A, F, D, E \}$
 ### Decomposition
-$F^+$ is set of all functional dependencies which hold on $F$
+$F^+$ is set of all functional dependencies whiThis should not have $M \to N$ch hold on $F$
 $F = \{ A \to B, B \to C \}$
 $A \to C$
 $A \to A$
@@ -103,3 +103,56 @@ Let $R_1(AB)$ and $R_2(BC)$ be decomposition of $R(ABC)$, check whether it is a 
 Find closure of $B$ to determine if it is a candidate key.
 $B^+ = \{ B, C, A \}$
 It is a candidate key for both, so this is a lossless decomposition.
+# Minimal Basis/Cover of a Functional Dependency set
+- Functional dependency that can't be further broken down
+- Denoted as $F'$
+### Example 1
+Given relation $R(A, B, C, D)$
+$$
+F = \{A \to AC, B \to ABC, D \to ABC\}
+$$
+Step 1: Split everything
+$$
+\begin{align}
+A \to A \\
+A \to C \\
+B \to A \\
+B \to B \\
+B \to C \\
+D \to A \\
+D \to B \\
+D \to C
+\end{align}
+$$
+Step 2: Remove redundancies, check each dependency and see if it is needed (ie. can we get the same dependency using other info, is it already in the closure set without using it)
+$$
+\begin{align}
+A \to C \\
+B \to A \\
+D \to B \\
+\end{align}
+$$
+### Example 2
+Given $\{ A \to B, C \to B, D \to ABC, AC \to D \}$
+$$
+\begin{align}
+A \to B \\
+C \to B \\
+D \to A \\
+D \to B \\
+D \to C \\
+AC \to D
+\end{align}
+$$
+Remove redundancies:
+$$
+\begin{align}
+A \to B \\
+C \to B \\
+D \to A \\
+D \to C \\
+AC \to D
+\end{align}
+$$
+Try to reduce all LHS to singleton value.
+Here we cannot do anything since $A \notin C^+$ and $C \notin A^+$.

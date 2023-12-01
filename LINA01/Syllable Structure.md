@@ -1,0 +1,81 @@
+# Segments and above segments
+- how sounds are organized in words
+- Sonorants
+	- non-obstructed sounds (non-turbulent sounds)
+	- consonants or vowels
+	- all are voiced
+	- usually louder
+	- relatively-free escape of the airstream in the oral or nasal cavity
+		- vowels
+		- glides
+		- liquids
+		- nasals
+	- support segments groups to form core of syllables
+- Obstruents
+	- obstruction of the airflow
+		- stops
+		- fricative
+		- affricates
+	- all consonants
+# Sonority Hierarchy
+- syllables have core/nucleus on sororant sounds
+- scale from most to least sonorous
+	- vowels
+	- glides
+	- liquids
+	- nasels
+	- Obstruents
+		- fricatives
+		- affricates
+		- stops
+- Number of vowels is number of syllables
+- A vowel by itself can form a syllable
+	- if it gets deleted (ie. from deletion)
+		- bottle [ba r \shwa l] becomes [bar l] then the other sonorant after vowel replaces it and becomes syllabic consonant
+		- denoted with bar or dot underneath
+# Syllables
+- vowel as nucleus (unless vowel is deleted)
+- surrounding (marginal) sounds are less sonorous
+- $\cdot$ denotes syllable boundary
+## Syllable structure
+- 2 major elements
+	- onset
+		- consonant
+	- rhyme
+		- split into nucleus and coda
+		- coda is consonant
+- for bin /b I n/
+	- ![[Pasted image 20231128200418.png]]
+- for about /\shwa \cdot b a w t/
+	- ![[Pasted image 20231128200651.png]]
+- for multiple consonants (consonant cluster) in onset or coda, do branching
+## Syllable Facts
+- all languages have syllables
+- in all languages syllable structure is subject to constraints
+- universal tendincies
+	- syllable nuclei usually one vowel
+	- syllables usually begin with oncets
+	- syllables often end with codas
+	- onsets and codas usually consist of one consonant
+- Most syllables are CV (consonant vowel) or CVC
+## Phonotactics
+- set of constraints on how sequences of segments are allowed
+- in English, onsets can contain more than one consonant
+- If an onset in English contains 3 consonants, the structure is the following
+	- the first is always voiceless alveolar fricative
+		- always [s]
+	- second always voiceless stop
+		- [p t k]
+	- third is liquid or glide
+		- [l r j w]
+## Syllabification
+- universal syllable shape constraints requires onsets to be as large as possible
+	- **Maximize Onset Principle**
+	- if there is a coda in previous segment, then move to next onset if it is valid combination of consonants
+	- ![[Pasted image 20231128202224.png]]
+	- for construction
+		- ![[Pasted image 20231128202731.png]]
+		- if in fast speech the last shwa is deleted then it becomes
+			- ![[Pasted image 20231128202800.png]]
+	- for bottle
+		- ![[Pasted image 20231128202914.png]]

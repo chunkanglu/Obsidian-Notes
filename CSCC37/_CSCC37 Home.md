@@ -31,3 +31,5 @@ Reading Week
 [[Hybrid Method]]
 # Week 11
 [[Approximation and Interpolation]]
+# Week 12
+[[Numerical Integration (Quadrature)]]

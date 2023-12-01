@@ -71,3 +71,18 @@ tags:
 - Storytelling & dissemination
 - Adapting to any device
 - Evaluation
+# 5 phase framework for search UI
+1. Formulation of search query
+2. Executing the search
+3. Retrieve results
+4. Ability to filter
+5. Extract/Manipulate result information
+- Each phase requires a user interface
+# Faceted Search
+- ability to filter down using multiple filters to narrow/widen the result set
+# Visualization techniques to illustrate different data types
+- treemaps, graphs, bar charts, tag clouds, network diagrams
+# Challenges in data visualization
+- cluttered (feature rich tools)
+- different types of users and different types of devices to be displayed on
+- data cleaning

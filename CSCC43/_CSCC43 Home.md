@@ -18,3 +18,11 @@ tags:
 Reading Week
 # Week 7
 [[Database Definition Language]]
+# Week 8
+
+# Week 9
+
+# Week 10
+[[Database Design Theory]]
+# Week 11
+[[Normalization]]
