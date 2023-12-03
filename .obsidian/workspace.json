@@ -32,7 +32,31 @@
             }
           },
           {
-            "id": "bad00ddfa80dfcc3",
+            "id": "25672ef4d94a724e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC37/Notes/Approximation and Interpolation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f10792c776ed03cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC43/Normalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d570a42fe25cef38",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,18 +68,19 @@
             }
           },
           {
-            "id": "25672ef4d94a724e",
+            "id": "50eba7b5fc19ec7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Notes/Approximation and Interpolation.md",
+                "file": "LINA01/Reflection-Language friendly school.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -84,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"entity\"",
+                "query": "\"",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -105,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.50043487548828
+    "width": 216.50043487548828,
+    "collapsed": true
   },
   "right": {
     "id": "0570b741f2d521f6",
@@ -121,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC37/Assignments/A4.md",
+                "file": "CSCC43/Assignments/A3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC37/Assignments/A4.md",
+                "file": "CSCC43/Assignments/A3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC37/Assignments/A4.md"
+                "file": "CSCC43/Assignments/A3.md"
               }
             }
           },
@@ -181,7 +207,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC37/Assignments/A4.md"
+                "file": "CSCC43/Assignments/A3.md"
               }
             }
           }
@@ -204,28 +230,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "306f49abdb1f7b5d",
+  "active": "d570a42fe25cef38",
   "lastOpenFiles": [
-    "CSCC37/Notes/Approximation and Interpolation.md",
-    "LINA01/Review Seminar 2.md",
     "CSCC37/Notes/Numerical Integration (Quadrature).md",
+    "CSCC37/Notes/Condition Number.md",
     "CSCC37/Assignments/A4.md",
+    "LINA01/Reflection-Language friendly school.md",
     "CSCC43/Assignments/A3.md",
-    "CSCC37/_CSCC37 Home.md",
+    "_Attachments/Pasted image 20231201213721.png",
+    "_Attachments/Pasted image 20231201212118.png",
+    "_Attachments/Pasted image 20231201211943.png",
     "CSCC43/Normalization.md",
+    "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
+    "CSCC37/Notes/Linear Systems of Equations.md",
+    "CSCC37/_CSCC37 Home.md",
+    "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
+    "CSCC37/Notes/Approximation and Interpolation.md",
+    "_Attachments/Pasted image 20231201121803.png",
+    "_Attachments/Pasted image 20231201120646.png",
+    "_Attachments/Pasted image 20231201120403.png",
+    "_Attachments/Pasted image 20231201114910.png",
+    "_Attachments/Pasted image 20231201104017.png",
+    "_Attachments/Pasted image 20231201104006.png",
+    "LINA01/Review Seminar 2.md",
     "CSCC43/NoSQL.md",
     "CSCC43/Database Design Theory.md",
     "LINA01/Syllable Structure.md",
     "_Attachments/Pasted image 20231130152930.png",
-    "_Attachments/Pasted image 20231130152333.png",
-    "_Attachments/Pasted image 20231130152129.png",
-    "_Attachments/Pasted image 20231130151949.png",
-    "_Attachments/Pasted image 20231130151816.png",
-    "_Attachments/Pasted image 20231130151710.png",
-    "_Attachments/Pasted image 20231130151510.png",
-    "_Attachments/Pasted image 20231130151110.png",
-    "_Attachments/Pasted image 20231130150530.png",
-    "_Attachments/Pasted image 20231130150231.png",
     "LINA01/Phonetics - Speech Sounds.md",
     "LINA01/Intro to Speech Production Processes.md",
     "CSCC10/Lecture Notes/Final review.md",
@@ -237,11 +268,6 @@
     "CSCC43/_CSCC43 Home.md",
     "CSCC43/Key - Definition from SO.md",
     "CSCC43/Worksheet/Week 11.md",
-    "CSCC43/SQL/Database Manipulation/Database Definition Language.md",
-    "CSCC43/SQL/Database Manipulation/Normalization Theory.md",
-    "CSCC43/SQL/Database Manipulation/Modifying a Database.md",
-    "LINA01/Phonetics 2.md",
-    "CSCC37/Assignments/A3.md",
     "_Attachments/week11_tutorial.pdf",
     "CSCC43/Assignments",
     "CSCC37/Assignments/A3_1c.py",
