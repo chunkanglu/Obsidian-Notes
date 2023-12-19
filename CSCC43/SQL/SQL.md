@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 - Formal language for interacting with DBMS
 - 2 parts
 	- DDL - data Definition Language for defining schemas

@@ -5,8 +5,8 @@ tags:
 # Week 1
 [[Overview]]
 [[Relational Model]]
-[[CSCC43/Relational Algebra]]
 # Week 2
+[[Relational Algebra]]
 # Week 3
 # Week 4
 [[SQL]]
@@ -19,10 +19,13 @@ Reading Week
 # Week 7
 [[Database Definition Language]]
 # Week 8
-
+Midterm
 # Week 9
-
+[[ER Model Database Design]]
 # Week 10
-[[Database Design Theory]]
+[[ER into DB schema]]
 # Week 11
+[[Database Design Theory]]
+# Week 12
 [[Normalization]]
+[[NoSQL]]

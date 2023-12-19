@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 ## SubQuery in FROM clause
 - Subqueries must be in brackets
 - Subqueries should be named

@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 - Goal of database design is to have no redundancy
 - Needs assumptions on dependencies we need to maintain
 # First Normal Form
@@ -81,7 +85,7 @@ For 3NF
 - Decompose into
 	- $R_1(NO)$
 	- $R_2(MN)$
-	- This is not in 3NF
+	- This is now in 3NF
 #### Example 2
 $R(MNOPQ)$
 $F = \{ MN \to O, N \to P, P \to Q \}$
@@ -162,8 +166,8 @@ $A \twoheadrightarrow B$
 - Transitive
 	- $x \twoheadrightarrow y$, $y \twoheadrightarrow z \implies x \twoheadrightarrow z$
 - Complementation
-	- if $x \twoheadrightarrow y$ and $z$ is the other attribute then $x \twoheadrightarrow z$
-- Every Functional dependency is an MVD
+	- if $x \twoheadrightarrow y$ and $z$ is the other attribute(s) then $x \twoheadrightarrow z$
+- Promotion - Every Functional dependency is an MVD
 	- if $x \to y$ then swapping y's between two tuples that agree on x doesn't change the tuple therefore new tuple are surely in the relation and we know $x \twoheadrightarrow y$
 ### Example
 Consider the relation $R(ABCDE)$ with MVD $A \twoheadrightarrow B, B \twoheadrightarrow D$
@@ -180,6 +184,12 @@ Decompose:
 		- no MVD
 # Chase Algorithm
 - Test decomposition is lossless or lossy
+## Steps
+1. Start with table with all attributes and fill in rows based on attributes within the decomposed relations (all other ones can be filled with a subscript *unknown* value)
+2. Go through each MVD and add rows for the other combinations
+	1. ie. if $R(ABC)$ and $A \twoheadrightarrow B$, then add rows to get all combinations of $B \times C$ with the same $A$.
+3. Go through each FD and see if we can equate known values to fill in the unknown values
+
 ## Example
 
 Initial table

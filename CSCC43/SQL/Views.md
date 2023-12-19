@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 Relation defined in terms of stored tables and other views
 - Breaks down large queries
 - Reduces repeated subqueries

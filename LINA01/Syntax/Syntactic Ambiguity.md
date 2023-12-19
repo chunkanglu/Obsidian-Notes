@@ -1,0 +1,1 @@
+When there are multiple parse trees (and thus multiple ways to interpret) the same clause.

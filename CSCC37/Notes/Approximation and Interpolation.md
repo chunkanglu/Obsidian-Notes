@@ -17,6 +17,7 @@ Note: can shift the monomial basis $\{ (x-c)^i : i = 0, 1, \cdots, n \}$
 ### Do approximating or interpolating polynomials exist?
 > **Weierstrass Theorem:**
 > If $f \in C[a, b]$ is $C_0$ continuous in $[a, b]$, then $\forall \epsilon > 0,  \exists p_\epsilon \text{ st. } ||f - p_\epsilon||_\infty < \epsilon$
+> Relevant: [[#Norm of a Continuous function]]
 > ie. You can always approximate any function with a polynomial.
 ### Numerical Methods for Polynomial Interpolation
 #### Vandermonde (Method of Undetermined Coefficients)
@@ -232,7 +233,7 @@ $$
 \begin{align}
 p(x) = y[x_0] &+ (x - x_0)y[x_1, x_0] \\
 &+ (x - x_0)(x - x_1)y[x_2, x_1, x_0] \\
-&+ (x - x_0)(x-x_1)(x - x_2(x - x_{n-2})y[x_3, x_2, x_1, x_0] \\
+&+ (x - x_0)(x-x_1)(x - x_2)(x - x_{n-2})y[x_3, x_2, x_1, x_0] \\
 \end{align}
 $$
 $p(x) = 1 + 2x + 2x(x-1) + 1x(x-1)(x-2)$
@@ -277,7 +278,7 @@ $$
 E(x) = \frac{y^{(n+1)}(\eta)}{(n+1)!} \prod_{i=0}^{n} (x - x_i) \text{ where } \eta \in \text{span}\{ x_0, x_1, \cdots, x_n, x \} = \text{closed interval } [\min \{ x_0, x_1, \cdots, x_n, x \}, \max \{ x_0, x_1, \cdots, x_n, x \}]
 $$
 
-It looks like the remainder of the Taylor expansion, since the polynomial interpolation is like a truncated Taylor expansion. 
+It looks like the remainder of the Taylor expansion, since the polynomial interpolation is like a [[#Truncated Taylor Series|truncated Taylor expansion]].
 For first part, the more data points the closer $p$ is to $y$ since $n \to \infty$.
 #### Runge Phenomenon
 $$
@@ -286,7 +287,7 @@ $$
 ![[runge_phenomenon.png]]
 The more interpolation points for this function the higher degree polynomial $\implies$ the worse it gets.
 Problem is the higher derivatives of the function $y^{(n+1)}(\eta)$ grow faster than $(n+1)!$, thus the higher polynomial, the worse error gets.
-This is where piecewise interpolation important
+This is where piecewise (spline) interpolation important
 ## Data Fitting
 Least squares approximation
 Find $p(x)$ that minimizes the distance to the $f$ which is $||f - p||_2$ (2-norm euclidean distance)

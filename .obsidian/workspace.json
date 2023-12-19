@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7b94228b451556c",
+        "id": "0187d508ffdc5fed",
         "type": "tabs",
         "children": [
           {
-            "id": "306f49abdb1f7b5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC37/Assignments/A4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13c4c182aa4e51dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC37/Notes/Numerical Integration (Quadrature).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25672ef4d94a724e",
+            "id": "e7037b73a0e7d96f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,43 +20,19 @@
             }
           },
           {
-            "id": "f10792c776ed03cb",
+            "id": "3eae92bb1e954c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC43/Normalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d570a42fe25cef38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC43/Assignments/A3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50eba7b5fc19ec7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LINA01/Reflection-Language friendly school.md",
+                "file": "CSCC37/Past Material/All Final Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"",
+                "query": "alter",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -130,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.50043487548828,
-    "collapsed": true
+    "width": 277.0004348754883
   },
   "right": {
     "id": "0570b741f2d521f6",
@@ -147,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC43/Assignments/A3.md",
+                "file": "CSCC37/Past Material/All Final Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC43/Assignments/A3.md",
+                "file": "CSCC37/Past Material/All Final Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC43/Assignments/A3.md"
+                "file": "CSCC37/Past Material/All Final Questions.md"
               }
             }
           },
@@ -207,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC43/Assignments/A3.md"
+                "file": "CSCC37/Past Material/All Final Questions.md"
               }
             }
           }
@@ -230,54 +181,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d570a42fe25cef38",
+  "active": "3eae92bb1e954c7e",
   "lastOpenFiles": [
-    "CSCC37/Notes/Numerical Integration (Quadrature).md",
-    "CSCC37/Notes/Condition Number.md",
-    "CSCC37/Assignments/A4.md",
-    "LINA01/Reflection-Language friendly school.md",
-    "CSCC43/Assignments/A3.md",
-    "_Attachments/Pasted image 20231201213721.png",
-    "_Attachments/Pasted image 20231201212118.png",
-    "_Attachments/Pasted image 20231201211943.png",
-    "CSCC43/Normalization.md",
-    "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
-    "CSCC37/Notes/Linear Systems of Equations.md",
-    "CSCC37/_CSCC37 Home.md",
-    "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
     "CSCC37/Notes/Approximation and Interpolation.md",
-    "_Attachments/Pasted image 20231201121803.png",
-    "_Attachments/Pasted image 20231201120646.png",
-    "_Attachments/Pasted image 20231201120403.png",
-    "_Attachments/Pasted image 20231201114910.png",
-    "_Attachments/Pasted image 20231201104017.png",
-    "_Attachments/Pasted image 20231201104006.png",
-    "LINA01/Review Seminar 2.md",
-    "CSCC43/NoSQL.md",
-    "CSCC43/Database Design Theory.md",
-    "LINA01/Syllable Structure.md",
-    "_Attachments/Pasted image 20231130152930.png",
-    "LINA01/Phonetics - Speech Sounds.md",
-    "LINA01/Intro to Speech Production Processes.md",
-    "CSCC10/Lecture Notes/Final review.md",
-    "CSCC43/Entity-Relationship/ER Model Database Design.md",
-    "CSCC10/Lecture Notes/10_Social Computing & Data Visualization.md",
-    "CSCC10/Lecture Notes/9_Interfaces.md",
-    "CSCC43/Entity-Relationship/ER into DB schema.md",
-    "LINA01/Phonetics Vowels.md",
+    "CSCC37/_CSCC37 Home.md",
+    "CSCC37/Assignments/A4.md",
+    "CSCC37/Past Material/All Final Questions.md",
+    "CSCC37/Past Material/Fall 2020 Final.md",
+    "CSCC37/Past Material/Fall 2020 Midterm.md",
+    "CSCC37/Past Material/Fall 2018 Midterm.md",
+    "CSCC37/Past Material/Fall 2015 Final (1 unfin).md",
+    "_Attachments/Pasted image 20231219101522.png",
+    "_Attachments/Pasted image 20231219101456.png",
+    "_Attachments/Pasted image 20231219101447.png",
+    "_Attachments/Pasted image 20231219101440.png",
+    "_Attachments/Pasted image 20231219101404.png",
+    "_Attachments/Pasted image 20231219101331.png",
+    "_Attachments/Pasted image 20231219101318.png",
+    "_Attachments/Pasted image 20231219101308.png",
+    "_Attachments/Pasted image 20231219101211.png",
+    "_Attachments/Pasted image 20231219100901.png",
+    "CSCC37/Notes/Newton's Method.md",
+    "CSCC37/Assignments/A3.md",
+    "CSCC37/Notes/Single Non-Linear Equations.md",
+    "CSCC37/Notes/Rate of Convergence Theorem.md",
+    "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
+    "CSCC37/Notes/Floating Point Arithmetic.md",
+    "CSCC43/Normalization.md",
     "CSCC43/_CSCC43 Home.md",
-    "CSCC43/Key - Definition from SO.md",
-    "CSCC43/Worksheet/Week 11.md",
+    "CSCC43/Database Design Theory.md",
+    "CSCC43/Entity-Relationship/ER into DB schema.md",
+    "CSCC43/SQL/Database Manipulation/Database Definition Language.md",
+    "CSCC43/SQL/Database Manipulation/Modifying a Database.md",
+    "CSCC43/SQL/Views.md",
+    "CSCC43/SQL/SubQuery.md",
+    "CSCC43/SQL/SQL.md",
+    "CSCC43/Relational Algebra.md",
+    "CSCC43/Overview.md",
+    "_Attachments/Week12_Tutorial.pdf",
+    "CSCC43/Relational",
+    "_Attachments/IPA_chart_consonant.pdf",
+    "LINA01/Phonetics & Phonology",
+    "LINA01/Syntax",
+    "LINA01/Morphology",
+    "LINA01/Intro to Linguistics",
+    "_Attachments/Heuristic_Summary1-compressed.pdf",
     "_Attachments/week11_tutorial.pdf",
     "CSCC43/Assignments",
-    "CSCC37/Assignments/A3_1c.py",
-    "_Attachments/Week 10, Translate ER into DB Schema.pdf",
-    "CSCC43/Entity-Relationship",
-    "LINA01",
-    "_Attachments/Tutorial Week 9.pdf",
-    "_Attachments/cscC37-F20-termtest.pdf",
-    "CSCC37/Past Material",
-    "CSCC43/Worksheet/Week5Sol.pdf",
     "Untitled.canvas"
   ]
 }

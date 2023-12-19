@@ -17,7 +17,7 @@ Approximate $f(x)$ by $p(x)$ on $[a, b]$ (or $x_i, x_{i+1}$)
 Then $I(f) \approx Q(f) = I(p) = \int_{a}^{b} p(x) dx$
 ## Lagrange Form
 $$
-p(x) = \sum_{i = 0}^{n} f(x_i)\ell_i(x), ~ p(x) \in $\mathcal{P}_n$
+p(x) = \sum_{i = 0}^{n} f(x_i)\ell_i(x), ~ p(x) \in \mathcal{P}_n
 $$
 Standard Form of a Quadrature Rule $Q(f) = \sum_{i = 0}^{n} A_i f(x_i)$
 $$
@@ -123,7 +123,9 @@ $I(f) \approx S(f) = I(p_2) = \frac{b - a}{6} \left( f(a) + 4f\left(\frac{a + b}
 - $x_0 = a, x_1 = \frac{a+b}{2}, x_2 = b$
 *Precision of Simpson's Rule*
 - $S(x^0), S(x^1), S(x^2)$ must work as it is defined for it
-- $S(x^3) =$ <mark style="background: #FF5582A6;">TODO</mark>
+- $S(x^3) =$ $\frac{b-a}{6}(a^3 + 4\left(\frac{a+b}{2}\right)^3 + b^3) = \frac{b^4 - a^4}{4}$ using a bunch of painful algebra
+- $S(x^4) = \frac{b-a}{6}(a^4 + 4\left(\frac{a+b}{2}\right)^4 + b^4) \ne \frac{b^5 - a^5}{5}$
+- Thus precision of $m = 3$
 ## Error in Interpolatory Quadrature
 $$
 \begin{align}

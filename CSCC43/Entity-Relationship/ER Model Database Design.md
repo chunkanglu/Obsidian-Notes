@@ -1,6 +1,6 @@
 ---
 tags:
-  - CSCC37
+  - CSCC43
 ---
 Logical representation of tables
 - Not actual table and values

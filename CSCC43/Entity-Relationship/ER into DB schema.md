@@ -111,9 +111,19 @@ $$
 $$
 Can move StartDate to mandatory Department and remove Management.
 Since 0 or 1 Employee per Department, we can have Employee number in Department
+# Other Constraints
 ## Max 1 Constraint
-
-
+Putting key of one side directly in the other related entity and not have explicit relationship.
+## Min 1 Constraint
+Looking at above Employee, Management, Department diagram.
+Original conversion is:
+$Employee(\underline{Number}, Name, Salary)$
+$Management(\underline{Employee, Department}, StartDate)$
+$Department(\underline{Name}, Telephone, Branch)$
+$Management(Employee) \subseteq Employee(Number)$
+$Management(Department) \subseteq Department(Name)$
+**Add additional constraint:**
+$Department(Name) \subseteq Management(Department)$
 # From Real world to ER Example
 We wish to create a database for a company that runs training courses. For this, we must store data about **trainees** and **instructors**.
 For each course participant (about 5,000 in all), identified by a code, we want to store her social security number, surname, age, sex, place of birth, employer’s name, address and telephone number, previous employers (and periods employed), the courses attended (there are about 200 courses) and the final assessment for each course. We need also to represent the seminars that each participant is attending at present and, for each day, the places and times the classes are held.

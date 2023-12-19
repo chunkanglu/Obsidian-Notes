@@ -9,5 +9,15 @@
 6. Yes since you can reach every other letter from $A$
 # Q2
 1. $name$
-2. <mark style="background: #FFF3A3A6;">Cannot complete yet</mark>
+2. temp
+	1. $R_1(name, address, gender)$
+	2. $R_2(address, rank)$
+	3. $R_3(rank, gender, salary)$
 # Q3
+## 1
+$bankid \to bankaddress$
+$cid \to customername$
+$bankid, cid \to accountholder$
+## 2
+bankid, cid
+

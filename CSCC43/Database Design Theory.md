@@ -26,7 +26,7 @@ $x \rightarrow y$ is a non-trivial functional dependency $\iff x \cap y = \empty
 $A \rightarrow B$
 $AB \rightarrow C$
 ### Semi-Trivial FD
-$x \rightarrow y$ is a semi-trivial functional dependency $\iff x \cap y \ne \emptyset$
+$x \rightarrow y$ is a semi-trivial functional dependency $\iff x \cap y \ne \emptyset$ but *not* $y \subseteq x$
 **Examples:**
 $BC \rightarrow BCD$
 
@@ -69,21 +69,19 @@ $(CF)^+ = \{ C, F, G, A, D, E \}$
 $BG^+ = \{ B, G, A, C, D \}$
 $AF^+ = \{ A, F, D, E \}$
 ### Decomposition
-$F^+$ is set of all functional dependencies whiThis should not have $M \to N$ch hold on $F$
+$F^+$ is set of all functional dependencies which hold on $F$
 $F = \{ A \to B, B \to C \}$
 $A \to C$
 $A \to A$
 $B \to B$
 $AB \to A$
-
 $F^+ = \{ A^+ = \ldots, B^+ = \ldots, C^+ = \ldots, AB^+ = \ldots, AC^+ = \ldots, BC^+ = \ldots, ABC^+ = \ldots \}$
 ## Schema Decomposition
-- Decomposing and combining it back should result in the original
+- Decomposing and combining it back should result in the original (Lossless decomposition)
 - Lossy Decomposition
 	- Does it result in the same information as before
 	- Can cause spurious tuples
 		- creates data that was not originally there
-- Lossless decomposition
 ### Principles for Lossless decomposition
 - Both tables should have a common attribute
 - Common attributes should be candidate key of at least one relation

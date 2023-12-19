@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 - Insert tuple
 - Delete tuple
 - Update tuple
@@ -18,8 +22,8 @@ INSERT INTO Ages
 (
 	SELECT DISTINCT firstname, 19 AS age
 	FROM Student
-		JOIN Took USING(sID) %% same as Student.sID=Took.sID %%
-		JOIN Offering USING oID
+		JOIN Took USING (sID) %% same as Student.sID=Took.sID %%
+		JOIN Offering USING (oID)
 	WHERE cnum <= 199
 )
 ```
@@ -47,7 +51,7 @@ Here campus gets default value and age gets NULL.
 DELETE FROM some_table
 WHERE condition;
 
-%% Drop table %%
+%% Delete everything from a table %%
 DELETE FROM some_table
 ```
 

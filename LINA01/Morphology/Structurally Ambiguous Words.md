@@ -1,0 +1,5 @@
+- Words that may have multiple meanings from multiples different ways to decompose the morphological structure
+- Example
+	- Unlockable
+		- un-, lockable (cannot be locked)
+		- unlock, -able (can be unlocked)

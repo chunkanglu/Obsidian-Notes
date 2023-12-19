@@ -2,7 +2,7 @@
 tags:
   - CSCC10
 ---
-Many projects fail due to final product being intuitive or suitable for the user
+Many projects fail due to final product being unintuitive or unsuitable for the user
 # Human Computer Interaction
 > Study of how people interact with computers and if it was developed successfully for human interaction
 

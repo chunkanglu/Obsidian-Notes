@@ -1,3 +1,7 @@
+---
+tags:
+  - CSCC43
+---
 - Databases hightly structured
 	- know data format in schema
 - Plain text unstructured
