@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7037b73a0e7d96f",
+            "id": "4d0a6173a6acdf77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Notes/Approximation and Interpolation.md",
+                "file": "CSCC01/Notes/Software Testing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3eae92bb1e954c7e",
+            "id": "f5725475095918d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC37/Past Material/All Final Questions.md",
+                "file": "CSCC01/Notes/Software Requirements.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC37/Past Material/All Final Questions.md",
+                "file": "CSCC01/Notes/Software Requirements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC37/Past Material/All Final Questions.md",
+                "file": "CSCC01/Notes/Software Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC37/Past Material/All Final Questions.md"
+                "file": "CSCC01/Notes/Software Requirements.md"
               }
             }
           },
@@ -148,7 +148,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -158,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC37/Past Material/All Final Questions.md"
+                "file": "CSCC01/Notes/Software Requirements.md"
               }
             }
           }
@@ -167,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,53 +182,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3eae92bb1e954c7e",
+  "active": "f5725475095918d0",
   "lastOpenFiles": [
-    "CSCC37/Notes/Approximation and Interpolation.md",
-    "CSCC37/_CSCC37 Home.md",
-    "CSCC37/Assignments/A4.md",
-    "CSCC37/Past Material/All Final Questions.md",
-    "CSCC37/Past Material/Fall 2020 Final.md",
-    "CSCC37/Past Material/Fall 2020 Midterm.md",
-    "CSCC37/Past Material/Fall 2018 Midterm.md",
-    "CSCC37/Past Material/Fall 2015 Final (1 unfin).md",
-    "_Attachments/Pasted image 20231219101522.png",
-    "_Attachments/Pasted image 20231219101456.png",
-    "_Attachments/Pasted image 20231219101447.png",
-    "_Attachments/Pasted image 20231219101440.png",
-    "_Attachments/Pasted image 20231219101404.png",
-    "_Attachments/Pasted image 20231219101331.png",
-    "_Attachments/Pasted image 20231219101318.png",
-    "_Attachments/Pasted image 20231219101308.png",
-    "_Attachments/Pasted image 20231219101211.png",
-    "_Attachments/Pasted image 20231219100901.png",
-    "CSCC37/Notes/Newton's Method.md",
-    "CSCC37/Assignments/A3.md",
-    "CSCC37/Notes/Single Non-Linear Equations.md",
-    "CSCC37/Notes/Rate of Convergence Theorem.md",
-    "CSCC37/Notes/Gaussian Elimination with row pivoting.md",
+    "CSCC01/Notes/Software Testing.md",
+    "CSCC01/Notes/Design Patterns.md",
+    "CSCC01/Notes/UML.md",
+    "CSCC01/Notes/Software Architecture.md",
+    "CSCC01/Notes/Software Requirements.md",
+    "CSCC01/Review Topics.md",
+    "CSCC01/Notes/Agile Development.md",
+    "_Attachments/Pasted image 20240311205545.png",
+    "CSCC01/Notes/DevOps.md",
+    "CSCC01/_CSCC01 Home.md",
+    "_Attachments/Pasted image 20240309181102.png",
+    "_Attachments/Pasted image 20240309174817.png",
+    "_Attachments/Pasted image 20240309174653.png",
+    "_Attachments/Pasted image 20240309173837.png",
+    "_Attachments/Pasted image 20240309171744.png",
+    "_Attachments/Pasted image 20240309170544.png",
+    "_Attachments/Pasted image 20240309170540.png",
+    "_Attachments/Pasted image 20240309143025.png",
+    "_Attachments/Pasted image 20240309142116.png",
+    "Self Learning/Database Optimization/Partitioning.md",
+    "Untitled.md",
+    "CSCC01/Notes",
+    "CSCC01",
+    "Self Learning/Database Optimization/Untitled.md",
+    "Self Learning/Database Optimization/Select Optimization.md",
+    "Self Learning/Database Optimization/Indexes.md",
+    "Self Learning/Database Optimization/Denormalization.md",
+    "Self Learning/Database Optimization/Caching.md",
+    "Self Learning/Database Optimization/Explaining Queries.md",
+    "Self Learning/Database Optimization/Pages.md",
     "CSCC37/Notes/Floating Point Arithmetic.md",
-    "CSCC43/Normalization.md",
-    "CSCC43/_CSCC43 Home.md",
-    "CSCC43/Database Design Theory.md",
-    "CSCC43/Entity-Relationship/ER into DB schema.md",
-    "CSCC43/SQL/Database Manipulation/Database Definition Language.md",
-    "CSCC43/SQL/Database Manipulation/Modifying a Database.md",
-    "CSCC43/SQL/Views.md",
-    "CSCC43/SQL/SubQuery.md",
-    "CSCC43/SQL/SQL.md",
-    "CSCC43/Relational Algebra.md",
-    "CSCC43/Overview.md",
+    "Self Learning/Database Optimization",
+    "Self Learning",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "CSCC37/_CSCC37 Home.md",
+    "CSCC37/Notes/Complexity of Gaussian Elimination.md",
+    "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
+    "CSCC37/Notes/Iterative Refinement of Linear System Solution.md",
     "_Attachments/Week12_Tutorial.pdf",
     "CSCC43/Relational",
     "_Attachments/IPA_chart_consonant.pdf",
     "LINA01/Phonetics & Phonology",
     "LINA01/Syntax",
     "LINA01/Morphology",
-    "LINA01/Intro to Linguistics",
-    "_Attachments/Heuristic_Summary1-compressed.pdf",
-    "_Attachments/week11_tutorial.pdf",
-    "CSCC43/Assignments",
     "Untitled.canvas"
   ]
 }

@@ -144,7 +144,7 @@ $$
 $$
 \begin{align}
 y[x_i] &= y(x_i) = y_i \\
-y[x_{i+k}, \cdots, x_i] &= \frac{y[x_{i+k}, \cdots, x_{i+1}] - y[x_{i+k-1, \cdots, x_i}]}{x_{i_k} - x_i}
+y[x_{i+k}, \cdots, x_i] &= \frac{y[x_{i+k}, \cdots, x_{i+1}] - y[x_{i+k-1, \cdots, x_i}]}{x_{i+k} - x_i}
 \end{align}
 $$
 Example:
@@ -249,6 +249,7 @@ $$
 \lim_{\substack{x_k \to x_0 \\ x_{k-1} \to x_0 \\ \vdots \\ x_1 \to x_0}} y[x_{k}, x_{k-1}, \cdots, x_0] = \frac{y^{(k)(x_0)}}{k!}
 $$
 We have been working with simple interpolation.
+![[Pasted image 20231220122022.png]]
 ##### How does [[#How are divided differences and derivative related?|this]] help with Osculatory (general) Interpolation? (ie. interpolation with derivative data)
 Example:
 Find $p \in \mathcal{P}_4$ such that $p(0) = 0, p(1) = 1, p(2) = 6, p'(1) = 1, p''(1) = 2$

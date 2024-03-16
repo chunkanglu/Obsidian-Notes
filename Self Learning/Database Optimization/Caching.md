@@ -1,0 +1,1 @@
+Postgresql stores rows in pages. When a query gets information from a page, the page is cached as later retrievals are fast.

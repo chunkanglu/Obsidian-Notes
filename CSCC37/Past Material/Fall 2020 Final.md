@@ -14,7 +14,7 @@ Cannot be represented as it is outside of the representable domain of this syste
 $(0.120)$
 ## f
 $0.100, 0.101, 0.102, 0.110, 0.111, 0.112, 0.120, 0.121, 0.122, 0.200, 0.201, 0.202, 0.210, 0.211, 0.212, 0.220, 0.221, 0.222$
-There are 18 possible mantissas. Since only 3 possible exponents, in total there are 54 possible representable numbers.
+There are 18 possible mantissas. Since only 3 possible exponents, in total there are 54 possible representable positive numbers. Then double for negatives 108.
 # Q2
 ![[Pasted image 20231219055136.png]]
 $d_kb^k + d_{k-1}b^{k-1} + \cdots + d_1b^1 + d_0b^0$

@@ -1,8 +1,9 @@
 ![[Pasted image 20231219094530.png]]
 $g_1$ is the first form of $f$ so it can be used
+$g_3$ is second form with $h(x) = \frac{1}{x}$
 $g_4$ is a second form of $f$ with $h(x) = \frac{1}{x^2}$
 ![[Pasted image 20231219094545.png]]
-IDK
+Do fractional derivative test for Fixed Point Theorem
 ![[Pasted image 20231219094553.png]]
 By the Rate of Convergence Theorem and taking the derivatives of the above variations of g, we get that they converge linearly. Consider the variation of g from using Newton's Method:
 $$
@@ -57,10 +58,10 @@ p(x) =
 $$
 
 ![[Pasted image 20231219094741.png]]
-Base 3: $(0.100)^{-1}$
+Base 3: $(0.100) \times 3^{-1}$
 Base 10: $3^{-2}$
 ![[Pasted image 20231219094750.png]]
-Base 3: $(0.222)^{1}$
+Base 3: $(0.222) \times 3^{1}$
 Base 10: $2 \cdot 3 + 2 \cdot 3^{-1} + 2 \cdot 3^{-2}$
 ![[Pasted image 20231219094758.png]]
 $\frac{1}{2}b^{-2}$
@@ -85,7 +86,7 @@ No as we would be performing the current 2 step process of factorizing then solv
 F-test: $f(x_k) < \epsilon$ 
 X-test: $|x_{k+1} - x_k| < \epsilon$ for some small defined epsilon (eg. machine epsilon)
 ![[Pasted image 20231219094928.png]]
-
+$\frac{xy-1}{x}$
 ![[Pasted image 20231219094939.png]]
 $g(x) = x - \frac{x^3 - \alpha}{3x^2}$
 It will not converge if we start at $x_0 = 0$ since $\lim_{x \to 0} \frac{x^3-\alpha}{3x^2} = \infty$
@@ -130,7 +131,7 @@ idk
 The growth can be controlled slightly through the selection of interpolation points to form the $W(x)$ term as the first term is not really dependent on the actual points.
 ![[Pasted image 20231219095020.png]]
 ![[Pasted image 20231219095030.png]]
-No, as the Runge function is not a polynomial, which is a nessecary condition for Weierstrass's theorem.
+IDK
 
 ![[Pasted image 20231219095041.png]]
 $$
@@ -166,7 +167,9 @@ If we have each $\ell_i(x)$ in the Lagrange form precomputed and saved, then bot
 reverse loop from n to 1
 
 ![[Pasted image 20231219095154.png]]
-$Ax = b \implies PAx = Pb \implies PAQx = PQb \implies LUx = PQb$
+$Qx = v$
+$Av = b$
+$PAv = LUv = Pb$
 
 ![[Pasted image 20231219095210.png]]
 First form: $g(x) = x - f(x)$, $g(x) = e^{-x}$
@@ -189,19 +192,86 @@ Newton's since you add another row to the table and perform $n$ computations for
 ![[Pasted image 20231219095747.png]]
 
 ![[Pasted image 20231219095756.png]]
+In the proof of the Vandermonde, we proved a theorem which concluded that there exists a unique polynomial of at most degree $n$ that passes through $n+1$ points. We are able to use this theorem to then argue that since $r(x)$ and $p_n(x)$ interpolate the same $n+1$ data points, they must be the same polynomial. The Fundamental Theorem of Algebra was used within the theorem to prove the invertability of the constructed Vandermonde matrix which can be used to compute the unique coefficients of the interpolation polynomial
 ![[Pasted image 20231219095811.png]]
-
+all true?
 ![[Pasted image 20231219095917.png]]
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 1 & 2 \\
+0 & 1 & 4
+\end{bmatrix}
+\begin{bmatrix}
+A_0 \\
+A_1 \\
+A_2
+\end{bmatrix}
+= 
+\begin{bmatrix}
+2 \\
+2 \\
+\frac{8}{3}
+\end{bmatrix}
+$$
+$$
+A_0 = \frac{1}{3}, A_1 = \frac{4}{3}, A_2 = \frac{1}{3}
+$$
+$$
+Q(f) = I(p) = S(f) = \frac{1}{3}f(0) + \frac{4}{3}f(1) + \frac{1}{3}f(2)
+$$
 ![[Pasted image 20231219095925.png]]
+$S(1) = \frac{1}{3} + \frac{4}{3} + \frac{1}{3} = 2 = b - a$
+$S(x) = \frac{1}{3} \cdot 0 + \frac{4}{3} \cdot 1 + \frac{1}{3}\cdot 2 = \frac{b^2 - a^2}{2} = 2$
+$S(x^2)$
+$S(x^3) = \frac{1}{3} \cdot 0 + \frac{4}{3} \cdot 1 + \frac{1}{3} \cdot 8 = 4 = \frac{b^4 - a^4}{4}$
+$S(x^4) = \frac{4}{3} + \frac{1}{3} \cdot 16 = \frac{20}{3} \ne \frac{b^5 - a^5}{5} = \frac{32}{5}$
+Therefore precision of $m = 3$
 ![[Pasted image 20231219095931.png]]
+$$
+\int_0^2 (2x^3 + 4x^2) dx = 2S(x^3) + 4S(x^2) = 2 \times 4 + 4 \times \frac{8}{3} = 16 + \frac{32}{3}
+$$
 
 ![[Pasted image 20231219100102.png]]
 #### Sol
 ![[Pasted image 20231219100901.png]]
+$$
+x_{k+1} = x_k - \frac{f(x_k) (x_k - x_{k-1})}{f(x_k) - f(x_{k-1})}
+$$
 #### Cont
 ![[Pasted image 20231219100129.png]]
-
+$$
+C = AB =
+\begin{bmatrix}
+a_{11} & a_{12} \\
+0 & a_{22}
+\end{bmatrix}
+\begin{bmatrix}
+b_{11} & b_{12} \\
+0 & b_{22}
+\end{bmatrix}
+=
+\begin{bmatrix}
+a_{11} \cdot b_{11} & a_{11}\cdot b_{12} + a_{12}\cdot b_{22} \\
+0 & a_{22} \cdot b_{22}
+\end{bmatrix}
+$$
+$$
+\begin{align}
+fl(AB) &=
+\begin{bmatrix}
+fl(fl(a_{11}) \cdot fl(b_{11})) & fl(fl(a_{11})\cdot fl(b_{12}) + fl(a_{12})\cdot fl(b_{22})) \\
+0 & fl(fl(a_{22}) \cdot fl(b_{22}))
+\end{bmatrix} \\
+&=
+\begin{bmatrix}
+fl(fl(a_{11}) \cdot fl(b_{11})) & fl(fl(a_{11})\cdot fl(b_{12}) + fl(a_{12})\cdot fl(b_{22})) \\
+0 & fl(fl(a_{22}) \cdot fl(b_{22}))
+\end{bmatrix} \\
+\end{align}
+$$
 ![[Pasted image 20231219100203.png]]
+Expand, then collect like terms of the same power of $x$
 ![[Pasted image 20231219100222.png]]
 
 ![[Pasted image 20231219100233.png]]
@@ -209,16 +279,27 @@ Newton's since you add another row to the table and perform $n$ computations for
 ![[Pasted image 20231219101211.png]]
 #### Cont
 ![[Pasted image 20231219100335.png]]
+![[Pasted image 20231220112027.png]]
 
 ![[Pasted image 20231219100343.png]]
+$\hat{x}_{i+1} - \hat{x}_{i} < \epsilon$
+$|b - A\hat{x}_{i}| < \epsilon$
 
 ![[Pasted image 20231219100406.png]]
+$f(x) = 1 - \frac{1}{2x} = 1 - \frac{1}{2}x^{-1}$
+$f'(x) = \frac{1}{2x^2}$
+$g(x) = 2x - 2x^2$
+$g'(x) = 2 - 4x$
+Want |$g'(x)| < 1 \implies -1 < 2 - 4x < 1$
+$1 > -2 + 4x > -1 \implies \frac{1}{4} < x < \frac{3}{4}$
+With graphical analysis, $g(x)$ is a downward opening parabola with root at $x = 0$ ~~trust me bro~~ *with some stuff* we can get that $\frac{1}{4} + \epsilon, /4 $
 
 ![[Pasted image 20231219100450.png]]
 
 ![[Pasted image 20231219100529.png]]
 
 ![[Pasted image 20231219100545.png]]
+By Week 3, we know $fl(x \cdot y) = (x \cdot y)(1 - \delta)$ where $|\delta| \le 3\epsilon$. It thus follows
 ![[Pasted image 20231219100619.png]]
 
 ![[Pasted image 20231219100733.png]]
@@ -231,8 +312,27 @@ Newton's since you add another row to the table and perform $n$ computations for
 ![[Pasted image 20231219101404.png]]
 
 ![[Pasted image 20231219101440.png]]
+$g(x) = x - h(x)(x + \ln(x))$
 ![[Pasted image 20231219101447.png]]
 
 ![[Pasted image 20231219101456.png]]
-
+![[Pasted image 20231220115519.png]]
 ![[Pasted image 20231219101522.png]]
+
+|$x_i$|$y[x_i]$|$y[x_{i+1}, x_i]$|$y[x_{i+2}, x_{i+1}, x_i]$|$y[x_{i+3}, x_{i+2}, x_{i+1}, x_i]$|$y[x_{i+4}, x_{i+3}, x_{i+2}, x_{i+1}, x_i]$|
+|---|---|---|---|---|---|
+|-1|4|||||
+|||$\frac{1-0}{1-0}=1$||||
+|0|7||$\frac{5-1}{2-1}=0$|||
+|||$\frac{y'(1)}{1!}=1$||$\frac{1-0}{1-0}=1$||
+|0|7||$\frac{y''(1)}{2!}=1$||$\frac{3-1}{2-0} = 1$|
+|||$\frac{y'(1)}{1!}=1$||$\frac{4-1}{2-1}=3$||
+|1|28||$\frac{5-1}{2-1}=4$|||
+|||$\frac{6-1}{2-1}=5$||||
+|1|28|||||
+|||||||
+|1|28|||||
+|||||||
+|2|6|||||
+
+
