@@ -1,0 +1,2 @@
+- can jump to any address for cells on tape
+- Can be implemented with $[f(n)]^6$ slowdown where $f(n)$ is length of string

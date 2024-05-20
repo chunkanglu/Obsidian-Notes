@@ -4,28 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "0187d508ffdc5fed",
+        "id": "89101e2d49996c0a",
         "type": "tabs",
         "children": [
           {
-            "id": "4d0a6173a6acdf77",
+            "id": "a86f96d9fe458618",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC01/Notes/Software Testing.md",
+                "file": "CSCC63/Thought Dumps/Universal TM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f5725475095918d0",
+            "id": "201332d1cc02c4cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC01/Notes/Software Requirements.md",
+                "file": "CSCC63/Tutorial 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41e7ff9d5ecfdda6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-05-19 20.05.01.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "97380a9ed0c1c2cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCC63/Assignment 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c611b05c726b3de8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSCD03/Assignment 1 - Professional Ethics.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.0004348754883
+    "width": 200
   },
   "right": {
     "id": "0570b741f2d521f6",
@@ -98,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC01/Notes/Software Requirements.md",
+                "file": "CSCC63/Tutorial 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC01/Notes/Software Requirements.md",
+                "file": "CSCC63/Tutorial 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC01/Notes/Software Requirements.md"
+                "file": "CSCC63/Tutorial 1.md"
               }
             }
           },
@@ -160,7 +194,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC01/Notes/Software Requirements.md"
+                "file": "CSCC63/Tutorial 1.md"
               }
             }
           }
@@ -169,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 374,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,53 +217,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f5725475095918d0",
+  "active": "201332d1cc02c4cc",
   "lastOpenFiles": [
-    "CSCC01/Notes/Software Testing.md",
-    "CSCC01/Notes/Design Patterns.md",
-    "CSCC01/Notes/UML.md",
-    "CSCC01/Notes/Software Architecture.md",
-    "CSCC01/Notes/Software Requirements.md",
-    "CSCC01/Review Topics.md",
-    "CSCC01/Notes/Agile Development.md",
-    "_Attachments/Pasted image 20240311205545.png",
-    "CSCC01/Notes/DevOps.md",
-    "CSCC01/_CSCC01 Home.md",
-    "_Attachments/Pasted image 20240309181102.png",
-    "_Attachments/Pasted image 20240309174817.png",
-    "_Attachments/Pasted image 20240309174653.png",
-    "_Attachments/Pasted image 20240309173837.png",
-    "_Attachments/Pasted image 20240309171744.png",
-    "_Attachments/Pasted image 20240309170544.png",
-    "_Attachments/Pasted image 20240309170540.png",
-    "_Attachments/Pasted image 20240309143025.png",
-    "_Attachments/Pasted image 20240309142116.png",
-    "Self Learning/Database Optimization/Partitioning.md",
-    "Untitled.md",
+    "Excalidraw/Drawing 2024-05-19 20.05.01.excalidraw.md",
+    "_Attachments/Pasted Image 20240519200516_738.png",
+    "CSCC63/Tutorial 1.md",
+    "_Attachments/Pasted image 20240519200446.png",
+    "MUZA99/Lecture 4.md",
+    "_Attachments/Pasted image 20240518141617.png",
+    "_Attachments/Pasted image 20240518141600.png",
+    "_Attachments/Pasted image 20240518141526.png",
+    "_Attachments/Pasted image 20240518141444.png",
+    "_Attachments/Pasted image 20240518141408.png",
+    "CSCC63/Thought Dumps/Lecture 3.md",
+    "CSCC63/Assignment 1.md",
+    "CSCD03/Assignment 1 - Professional Ethics.md",
+    "CSCC09/Lecture 2.md",
+    "CSCC09/Lecture 1.md",
+    "CSCC63/Thought Dumps/Lecture 4.md",
+    "Random Throughts/Backend for Frontend Pattern.md",
+    "MUZA99/Lecture 3.md",
+    "_Attachments/Pasted image 20240515211746.png",
+    "_Attachments/Pasted image 20240515211724.png",
+    "_Attachments/Pasted image 20240515211701.png",
+    "MUZA99/Lecture 2.md",
+    "CSCC63/Thought Dumps/Universal TM.md",
+    "CSCC63/Thought Dumps/Church-Turing Thesis (TM equal power).md",
+    "CSCC63/Thought Dumps/RAM model TM.md",
+    "CSCC63/Thought Dumps/Non-deterministic TM.md",
+    "CSCC63/Thought Dumps/Multi-tape Turing Machines.md",
+    "CSCC63/Thought Dumps/Lecture 2.md",
+    "CSCC63/Thought Dumps/Recognizable vs. Co-recognizable vs. Decidable Languages.md",
+    "CSCD03/Overview.md",
+    "CSCC63/Lectures/Intro & Turing Machines.md",
+    "CSCC09",
+    "Excalidraw/Drawing 2024-05-09 14.40.24.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-09 14.56.00.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-09 14.23.21.excalidraw.md",
+    "CSCC63/Thought Dumps/Lecture 1.md",
+    "MUZA99",
+    "CSCD03",
+    "Random Throughts",
+    "CSCC63/Lectures",
+    "CSCC63/Thought Dumps",
+    "CSCC63",
     "CSCC01/Notes",
     "CSCC01",
-    "Self Learning/Database Optimization/Untitled.md",
-    "Self Learning/Database Optimization/Select Optimization.md",
-    "Self Learning/Database Optimization/Indexes.md",
-    "Self Learning/Database Optimization/Denormalization.md",
-    "Self Learning/Database Optimization/Caching.md",
-    "Self Learning/Database Optimization/Explaining Queries.md",
-    "Self Learning/Database Optimization/Pages.md",
-    "CSCC37/Notes/Floating Point Arithmetic.md",
     "Self Learning/Database Optimization",
-    "Self Learning",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "CSCC37/_CSCC37 Home.md",
-    "CSCC37/Notes/Complexity of Gaussian Elimination.md",
-    "CSCC37/Notes/Round off Error Analysis of Gaussian Elimination.md",
-    "CSCC37/Notes/Iterative Refinement of Linear System Solution.md",
-    "_Attachments/Week12_Tutorial.pdf",
-    "CSCC43/Relational",
-    "_Attachments/IPA_chart_consonant.pdf",
-    "LINA01/Phonetics & Phonology",
-    "LINA01/Syntax",
-    "LINA01/Morphology",
     "Untitled.canvas"
   ]
 }

@@ -3,7 +3,7 @@ tags:
   - CSCC43
 ---
 # Week 1
-[[Overview]]
+[[CSCC43/Overview]]
 [[Relational Model]]
 # Week 2
 [[Relational Algebra]]
