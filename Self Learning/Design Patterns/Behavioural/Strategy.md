@@ -1,0 +1,3 @@
+- Define a family of similar, interchangable algorithms that can be set and run with generic function call
+- Extremely similar to the [[Bridge]] pattern
+- Also similar somewhat to [[State]]

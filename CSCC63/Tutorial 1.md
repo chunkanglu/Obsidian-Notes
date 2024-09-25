@@ -25,6 +25,7 @@ $$
 4. Otherwise, accept (should already be at start of string after adding)
 ### Diagram
 ![[Drawing 2024-05-19 20.05.01.excalidraw]]
+Assuming we don't get the empty string as input cuz that wouldn't make sense.
 #### Shift Right 1
 - Start in $q_0$
 - $q_1$ means character to the left was originally a $0$
@@ -158,6 +159,8 @@ $$
 
 # 3
 **Map from path problem to PCP**
+Given graph and s-to-t path, generate tiles
+
 Given an instance of PATH create an instance of PCP that is a yes-instance iff PATH is yes-instance.
 PATH given $G = (V, E), s, tis there a path from $s$ to $t$
 
@@ -165,3 +168,70 @@ decision tree BFS
 graph turn into path finding
 tiles hav something to do with edges of graph
 mark starting and ending tile with like $\frac{\$S}{\$}$ , $\frac{\$}{T\$}$ 
+
+- Nodes in graph will be the results of combining tiles
+- Edges are the tiles themselves
+- Must start with a tile that has same first character for top & bottom strings
+- Accepting tile(s) have the same top & bottom string
+## From ChatGPT
+Creating a PCP instance that is a yes-instance if and only if a given graph \( G = (V, E) \) has a path from node \( s \) to node \( t \) involves encoding the path problem as a PCP problem. Here’s a step-by-step approach to achieving this:
+### Step-by-Step Solution
+1. **Graph Representation:**
+   - Given: Directed graph \( G = (V, E) \) with vertices \( V \) and edges \( E \).
+   - Start node \( s \).
+   - Target node \( t \).
+2. **Tile Construction:**
+   - For each edge \( (u, v) \in E \), create a tile:
+     - Top string: \( u \)
+     - Bottom string: \( v \)
+3. **Special Tiles:**
+   - Create a start tile that indicates the beginning of the path.
+     - Top string: \( \# \)
+     - Bottom string: \( s \)
+   - Create an end tile that ensures the path ends correctly.
+     - Top string: \( t \)
+     - Bottom string: \( \# \)
+4. **Combining Tiles:**
+   - The sequence starts with the start tile.
+   - Then, tiles corresponding to the edges are used to simulate the traversal from \( s \) to \( t \).
+   - Finally, the end tile ensures that the path completes at \( t \).
+### Example
+Consider a graph \( G \) with vertices \( V = \{s, a, b, t\} \) and edges \( E = \{(s, a), (a, b), (b, t)\} \):
+- Tiles for edges:
+  - \( (s, a) \): Top: \( s \), Bottom: \( a \)
+  - \( (a, b) \): Top: \( a \), Bottom: \( b \)
+  - \( (b, t) \): Top: \( b \), Bottom: \( t \)
+
+- Start tile:
+  - Top: \( \# \), Bottom: \( s \)
+
+- End tile:
+  - Top: \( t \), Bottom: \( \# \)
+### Tile Set for the Example Graph
+1. \( (\#, s) \)
+2. \( (s, a) \)
+3. \( (a, b) \)
+4. \( (b, t) \)
+5. \( (t, \#) \)
+### Valid Sequence
+- Start with the start tile:
+  - Top: \( \# \)
+  - Bottom: \( s \)
+
+- Use edge tiles to simulate the path:
+  - \( (s, a) \)
+    - Top: \( s \), Bottom: \( a \)
+  - \( (a, b) \)
+    - Top: \( a \), Bottom: \( b \)
+  - \( (b, t) \)
+    - Top: \( b \), Bottom: \( t \)
+
+- End with the end tile:
+  - Top: \( t \), Bottom: \( \# \)
+### Sequence Result
+- Top: \( \#sabt \)
+- Bottom: \( s\ab t\# \)
+### Ensuring a Match
+To ensure the top and bottom strings match, each edge's top and bottom strings align perfectly, simulating a path from \( s \) to \( t \).
+### Conclusion
+The constructed PCP instance is a yes-instance if and only if there is a path from \( s \) to \( t \) in the graph \( G \). This transformation encodes the graph traversal problem as a PCP problem, allowing us to use the PCP framework to solve the pathfinding problem indirectly.

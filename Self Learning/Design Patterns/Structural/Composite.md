@@ -1,0 +1,1 @@
+- Compose objects into a tree structure with non-leaf elements having children

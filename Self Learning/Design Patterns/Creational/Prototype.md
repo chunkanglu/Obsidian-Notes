@@ -1,0 +1,3 @@
+- Add ability to create clones of objects with the exact same attributes
+- Add an interface with a `clone` method that is implemented by returning a new object from running an overloaded constructor that accepts an existing object of this class
+	- Need to modify constructor to have a version that accepts an existing instance and assigns all the attributes the same

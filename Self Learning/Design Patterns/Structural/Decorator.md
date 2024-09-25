@@ -1,0 +1,2 @@
+- Adding new functionality by wrapping on top of existing objects
+- Decorator (possibly abstract) class implements base class interface and also has the instance of the base class interface to wrap on top of

@@ -1,0 +1,2 @@
+- Software elements should be open for extension but closed for modification
+	- Should be able to add more functionality without changing existing code for a class

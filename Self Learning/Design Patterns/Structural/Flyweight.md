@@ -1,0 +1,2 @@
+- Sharing common parts of state between multiple objects instead of independently (possibly to save on RAM)
+- Uses a separate class instance to store the common attributes which can be saved as an attribute of the original class. All instances of the original class can share the same separate class instance for attributes

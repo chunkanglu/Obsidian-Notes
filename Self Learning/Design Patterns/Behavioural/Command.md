@@ -1,0 +1,4 @@
+- Turning a request (ie. a function call) into an object containing all info as possibly more metadata to allow for extra operations
+	- eg. for saving to action log for undo
+	- Think turning running a function into a task in a task queue
+- Decouples original functions from the thing using the function

@@ -1,0 +1,3 @@
+- Be able to traverse elements of a collection without exposing underlying representation
+	- generic traversal regardless of whether the collection is an array, linked list, graph, ...
+- Essentially exposing just `getNext()` and possibly `hasMore()`

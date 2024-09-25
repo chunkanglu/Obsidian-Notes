@@ -1,0 +1,2 @@
+- Depend on abstractions (as input params) over concrete implementations
+- Allows for more generic classes and functions

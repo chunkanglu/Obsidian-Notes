@@ -1,0 +1,2 @@
+- Pub-sub system where multiple objects can be notified if an event happens to object they are observing
+- Publishers keep some sort of a list of subscribers which will be iterated over when event happens

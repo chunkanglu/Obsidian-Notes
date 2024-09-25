@@ -1,0 +1,8 @@
+- Automation complacency
+- Debate self-driving car
+	- There very likely won't be 100% adoption for self-driving cars due to groups like the car communities that would always want control on their car (still big want for manual transmission).
+- Should software engineers be licenced
+	- I don't think Open-source should be held to the same regard as needing a licence as it ultimately is something for the community by hobbyists for anyone else
+	- Would argue that there is already some forms of licensing like cybersecurity
+	- Would we rather pass licence if it meant not needing for the need to do projects and other things on our own time
+	- 

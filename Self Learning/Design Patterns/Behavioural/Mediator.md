@@ -1,0 +1,3 @@
+- Restrict direct communication between objects separate into new class that has access and controls actions between the objects
+- Decouples and allows for reuse
+- Similar to [[Proxy]]

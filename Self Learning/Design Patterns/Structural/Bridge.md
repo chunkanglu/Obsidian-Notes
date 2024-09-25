@@ -1,0 +1,5 @@
+- To divide a monolithic class into abstraction and implementation which can be independently changed
+	- usually implementation only contains the most primitive operations with more sophisticated actions in the abstraction
+- Abstraction contains an instance of a concrete implementation of the implementation interface
+- Extremely similar to the [[Strategy]] pattern, but differs in intent
+	- Strategy allows you to "hotswap" method implementations whereas this focuses on decoupling components

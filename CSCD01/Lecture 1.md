@@ -1,0 +1,86 @@
+- Large software systems
+	- high contributors
+	- impacts many stakeholders, serving large population
+	- how company hierarchy change technical decisions on how software is built
+- Software Engineering
+	- process of creating software through SDLC
+		- requirements
+		- system design
+		- implementation
+		- Testing
+		- deployment
+		- maintenance
+	- Waterfall vs. Agile
+		- why organizations choose these models, and how these hierarchies change how things are done
+	- Should be most familiar with implementation and testing
+		- implementation is also related to adherence to system design
+		- building software isn't free
+			- costs of labor - salaries for devs, PMs, Project Managers, Support team, Architects, management
+			- infra cost (prod env, test env)
+			- maintenance overhead
+				- tech debt, documentation (product docs, code docs, stakeholders, support for client concerns), change management
+			- libraries we use on internet isn't absolutely free even when it is open source
+	- Requirements Engineering
+		- processes of discovering and documenting requirements necessary for project success
+		- we cared about functional requirements in C01
+		- but non-functional requirements equally as important
+		- Need to maximize
+			- known requirements - what users told us
+			- overlooked requirements - what users didn't tell us yet
+			- emergent requirements - what will surface while building the product
+		- Need to know all requirements to reduce *scope creep*, when we keep adding things to requirements, which changes from something deliverable to something unable to be completed
+	- Deployment/Maintenance (theoretical elements of deployment and maintenance)
+		- deployment is making software available to users
+		- maintenance is ensuring that the software continuously satisfy users
+	- System Design
+		- defining software architecture of a system
+		- solving problems from a structural perspective
+		- communicating ideas without code on a macro level when there are many modules, codebases, and devs
+		- questions like when should you split backends, consolidate?
+		- System design is making decisions on tradeoffs
+			- CAP Theorem
+				- Consistency
+				- Availability
+				- Partition Tolerance
+				- You can only satisfy 2 out of 3
+			- more tradeoffs on: performance, maintainability, ...
+- Open Source
+	- open vs closed source
+		- security
+	- free vs. non-free open source
+	- open does not mean free, source code on Github doesn't mean you can use it for free
+	- FOSS is free, and open source
+	- 2 types of licenses
+		- Permissive
+			- no obligation to open source modifications to source code
+			- compatible with other sources
+			- eg. MIT, BSD, Apache
+		- Copyleft
+			- legally must opensource any modifications to the sources
+			- license is considered "viral"
+			- eg. GPL, AGPL, LGLP
+		- This aspect is invisible to many people on the team
+	- The value of Open source software
+		- makes life as a dev easier
+		- why contribute
+			- get hired faster
+			- access to industry talent
+			- work on your craft
+		- scoping projects with
+			- stars, how many people use it
+			- having a low barries to contribute
+				- large number of contributors
+				- larger rate of contributions over time (indicated maintenance to low barrier over tie)
+				- good documentation
+				- simple dev setup locally
+				- streamlined, easy to understand, design
+				- healthy project
+				- Good READMEs
+			- contributor documentation
+				- "time to hello world", how long it takes to develop a basic "hello world" in a language, or to setup and run a library
+			- Prioritize getting the project to work, get to know the general idea, then maybe contribute
+	- Issue Hunting (what to contribute)
+		- Communicate
+			- Discover gaps in project by being a user
+			- GitHub issues
+			- Messaging Forums (like Discord, Reddit, GitHub Discussions, ...)

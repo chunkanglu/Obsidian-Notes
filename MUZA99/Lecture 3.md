@@ -45,12 +45,14 @@
 			- Aeolian
 			- Locrian
 - **Contour:** shape of a melody
-	- **Ascending** riging melody or sectin of a meldy
+	- **Ascending** rising melody or section of a melody
 	- **Descending**
 - **Range:** the span of notes from highest to lowest
 - Types of melodic motion
 	- Conjunct: melodic motion proceeding by step (small step melodies)
+		- **Can't take my eyes off your by Lauryn Hill**
 	- Disjunct: melodic motion with mainly leaps
+		- **So what by Miles Davis**
 - Phrase: self-contained portion of a melody
 	- antecedent: first phrase, a musical question
 	- consequent: second phrase, a musical response

@@ -42,7 +42,7 @@
 		- Example: Hymn to Freedom By Oscar Peterson
 ## Metre
 - **Metre:** pattern in which rhystmic pulses are organized into groups
-- **Bar:** unit of mesical time consisting of a fixed number of note-value, delineated with abrlines
+- **Bar:** unit of musical time consisting of a fixed number of note-value, delineated with abrlines
 - **Duple metre:** basic unit of pulse recurs in groups of 2, $\frac{2}{4}, \frac{4}{4}$
 - **Triple metre:** basic unit of pulse recurs in groups of 3, $\frac{3}{4}$
 - **Time Signature:** sign at the start of a piece of music to indicate metre

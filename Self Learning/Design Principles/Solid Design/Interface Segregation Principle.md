@@ -1,0 +1,2 @@
+- Clients should not be forced to depend on interfaces they don't use
+- Make interfaces small and specific so classes don't need to say throw errors when a function that should not exist for that class but implements the interface for it

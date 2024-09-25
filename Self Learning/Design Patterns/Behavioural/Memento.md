@@ -1,0 +1,5 @@
+- Save and restore previous state of an object without revealing underlying implementation
+- 3 parts
+	- Originator - the main object to save state for
+	- Memento - snapshot of the originator's state
+	- Caretaker - calls originator to create mementos and keeps track of existing ones to allow originator to restore to previous state

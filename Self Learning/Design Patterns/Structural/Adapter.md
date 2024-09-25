@@ -1,0 +1,2 @@
+- Converting interface of one object to something another object can understand and use
+- Adapter class inherits from class to convert to and its constructor takes in the old class

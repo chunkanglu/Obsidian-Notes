@@ -20,3 +20,18 @@ $L(M)$ is the language a machine $M$ which is all words the machine accepts
 > 
 > In short, Turing-recognizability means that there is a program that can confirm that a string w is in a language, and co-Turing-recognizability means that there is a program that can confirm that a string w is _not_ in the language.
 
+___
+- regular definition: language is recognizable iff there is a TM (*recognizer*) that will accept exactly the yes-instances and reject/loop for no-instances
+- alt-definition: a language is recognizable iff it can be written in the form with some predicate $P$
+	- $L = \left\{ \langle\text{something}\rangle |~ \exists\langle\text{something}\rangle, P(\langle\text{instance, something}\rangle) \right\}$
+- recorgnizable languages might include some undecidable languages
+	- we're trying to find something in the exists quantifier
+		- This is a *certificate*
+		- $L = \left\{ \langle\text{something}\rangle |~ \exists\langle\text{certificate}\rangle, P(\langle\text{instance, certificate}\rangle) \right\}$
+	- **if we have a bound on the search space, then the problem is decidable, otherwise there is theoretically an infinite number of values to try**
+	- By regular def, $L = \left\{ \langle x \rangle |~ \exists k, R \text{ accepts } \langle x \rangle \text{ in } k \text{ steps } \right\}$, and we need to loop over with *effective enumeration* ordering to find certificates
+- **Decidable languages are the ones that we can *solve* in a finite amount of time. Recognizable languages are the ones where we can *check our answers* in a finite amount of time**
+___
+- We know that HALT is recognizable but not co-recognizable
+	- To prove something is not co-recognizable, we can reduce from HALT
+	- To prove something is not recognizable, we can reduce from $\overline{\text{HALT}}$ 

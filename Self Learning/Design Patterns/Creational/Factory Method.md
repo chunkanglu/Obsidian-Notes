@@ -1,0 +1,1 @@
+- Superclass provides generic interface/method for creating objects and defers/overwrites concrete instantiation of object type to subclass

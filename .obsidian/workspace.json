@@ -8,65 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a86f96d9fe458618",
+            "id": "bfbca5583b1be19e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSCC63/Thought Dumps/Universal TM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "201332d1cc02c4cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC63/Tutorial 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41e7ff9d5ecfdda6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-19 20.05.01.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "97380a9ed0c1c2cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCC63/Assignment 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c611b05c726b3de8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSCD03/Assignment 1 - Professional Ethics.md",
+                "file": "CSCD01/Lecture 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alter",
+                "query": "final",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -132,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSCC63/Tutorial 1.md",
+                "file": "CSCD01/Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSCC63/Tutorial 1.md",
+                "file": "CSCD01/Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSCC63/Tutorial 1.md"
+                "file": "CSCD01/Lecture 3.md"
               }
             }
           },
@@ -194,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSCC63/Tutorial 1.md"
+                "file": "CSCD01/Lecture 3.md"
               }
             }
           }
@@ -203,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374,
-    "collapsed": true
+    "width": 374
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,53 +169,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "201332d1cc02c4cc",
+  "active": "bfbca5583b1be19e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-19 20.05.01.excalidraw.md",
-    "_Attachments/Pasted Image 20240519200516_738.png",
-    "CSCC63/Tutorial 1.md",
-    "_Attachments/Pasted image 20240519200446.png",
-    "MUZA99/Lecture 4.md",
-    "_Attachments/Pasted image 20240518141617.png",
-    "_Attachments/Pasted image 20240518141600.png",
-    "_Attachments/Pasted image 20240518141526.png",
-    "_Attachments/Pasted image 20240518141444.png",
-    "_Attachments/Pasted image 20240518141408.png",
-    "CSCC63/Thought Dumps/Lecture 3.md",
-    "CSCC63/Assignment 1.md",
-    "CSCD03/Assignment 1 - Professional Ethics.md",
-    "CSCC09/Lecture 2.md",
-    "CSCC09/Lecture 1.md",
-    "CSCC63/Thought Dumps/Lecture 4.md",
-    "Random Throughts/Backend for Frontend Pattern.md",
-    "MUZA99/Lecture 3.md",
-    "_Attachments/Pasted image 20240515211746.png",
-    "_Attachments/Pasted image 20240515211724.png",
-    "_Attachments/Pasted image 20240515211701.png",
-    "MUZA99/Lecture 2.md",
-    "CSCC63/Thought Dumps/Universal TM.md",
-    "CSCC63/Thought Dumps/Church-Turing Thesis (TM equal power).md",
-    "CSCC63/Thought Dumps/RAM model TM.md",
-    "CSCC63/Thought Dumps/Non-deterministic TM.md",
-    "CSCC63/Thought Dumps/Multi-tape Turing Machines.md",
-    "CSCC63/Thought Dumps/Lecture 2.md",
-    "CSCC63/Thought Dumps/Recognizable vs. Co-recognizable vs. Decidable Languages.md",
-    "CSCD03/Overview.md",
-    "CSCC63/Lectures/Intro & Turing Machines.md",
-    "CSCC09",
-    "Excalidraw/Drawing 2024-05-09 14.40.24.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-09 14.56.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-09 14.23.21.excalidraw.md",
-    "CSCC63/Thought Dumps/Lecture 1.md",
-    "MUZA99",
-    "CSCD03",
-    "Random Throughts",
-    "CSCC63/Lectures",
-    "CSCC63/Thought Dumps",
-    "CSCC63",
-    "CSCC01/Notes",
-    "CSCC01",
-    "Self Learning/Database Optimization",
+    "CSCD01/Lecture 4 Structural Non-functional Requirements.md",
+    "CSCD01/Lecture 3.md",
+    "CSCD01/Lecture 2.md",
+    "CSCD01/Lecture 1.md",
+    "Self Learning/When to Merge vs. Rebase.md",
+    "Self Learning/Design Principles/Solid Design/Liskov Substitution Principle.md",
+    "Self Learning/Design Principles/Solid Design/Open-Closed Principle.md",
+    "Self Learning/Design Principles/Solid Design/Single Responsibility Principle.md",
+    "Self Learning/Design Principles/Solid Design/Interface Segregation Principle.md",
+    "Self Learning/Design Principles/Solid Design/Dependency Inversion Principle.md",
+    "Self Learning/Design Patterns/Behavioural/Visitor.md",
+    "Self Learning/Design Principles/Untitled.md",
+    "Self Learning/Design Principles/Solid Design",
+    "Self Learning/Design Patterns/Behavioural/Template Method.md",
+    "Self Learning/Design Patterns/Behavioural/Strategy.md",
+    "Self Learning/Design Patterns/Behavioural/State.md",
+    "Self Learning/Design Patterns/Behavioural/Observer.md",
+    "Self Learning/Design Patterns/Behavioural/Memento.md",
+    "Self Learning/Design Patterns/Behavioural/Mediator.md",
+    "Self Learning/Design Patterns/Behavioural/Iterator.md",
+    "Self Learning/Design Patterns/Behavioural/Command.md",
+    "Self Learning/Design Patterns/Behavioural/Chain of Responsibility.md",
+    "Self Learning/Design Patterns/Structural/Proxy.md",
+    "Self Learning/Design Patterns/Structural/Flyweight.md",
+    "Self Learning/Design Patterns/Structural/Facade.md",
+    "Self Learning/Design Patterns/Structural/Decorator.md",
+    "Self Learning/Design Patterns/Structural/Composite.md",
+    "Self Learning/Design Patterns/Behavioural",
+    "Self Learning/Design Patterns/Structural",
+    "Self Learning/Design Patterns/Creational",
+    "Self Learning/Design Principles",
+    "Self Learning/Code Smells",
+    "Self Learning/Design Patterns",
+    "CSCD01",
+    "_Attachments/Pasted image 20240814153112.png",
+    "CSCC63/Final Prep",
+    "CSCC09/Notes/Untitled",
+    "_Attachments/Pasted image 20240812191017.png",
+    "_Attachments/Pasted image 20240811173809.png",
+    "_Attachments/Pasted image 20240811173604.png",
+    "_Attachments/Pasted image 20240811173545.png",
+    "_Attachments/Pasted image 20240616171112.png",
+    "_Attachments/Pasted image 20240616170919.png",
+    "_Attachments/Pasted image 20240614210742.png",
+    "_Attachments/Pasted image 20240614210719.png",
+    "_Attachments/Pasted image 20240614210700.png",
     "Untitled.canvas"
   ]
 }

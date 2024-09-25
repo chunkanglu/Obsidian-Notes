@@ -76,7 +76,7 @@ Listing Excerpt 3
 - Largely improvised
 ### Bossa Nova
 - Time Period: 1960-1975+
-- Instrumentation: voice, classical, guitar, bass, percussion, drums
+- Instrumentation: voice, classical guitar, bass, percussion, drums
 - Tempo: slow
 - Example:
 	- Corcovado, Antonio Carlos
@@ -92,8 +92,8 @@ Listing Excerpt 3
 	- The Thrill Is Gone, BB King
 ### Rock
 - Time Period: 1950-2010+
-- Instrentation: voice, electric guitar, electric keyboard, electric bass, drums
-- Form: verse-chorus/ verse-erfrain
+- Instrumentation: voice, electric guitar, electric keyboard, electric bass, drums
+- Form: verse-chorus/ verse-refrain
 - Example
 	- Dreams, Fleetwood Mac
 ### Hip-Hop

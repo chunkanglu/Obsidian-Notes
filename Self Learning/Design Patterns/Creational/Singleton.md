@@ -1,0 +1,3 @@
+- Ensures a class only has one global instance
+- Useful for a global shared resource
+- Make default constructor private and have a new method `getInstance()` or something that will return the existing instance or create one if it doesn't exist

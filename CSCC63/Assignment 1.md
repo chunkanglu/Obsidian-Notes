@@ -66,9 +66,72 @@ Edge case at the start of string, moving left, write: 1 change
 Most difference from moving left and writing.
 We can see this is possible in $M_2$ by observing $C_9$ and $C_10$ shown in part a.
 # 2
+We generally aren't able to prove something isn't in a language
+Show that $\overline{L_2}$ is not co-recognizable
+$$
+\overline{L_2} = \{ \langle M \rangle ~ | ~ \forall n \in \mathbb{N}, 0^n1^n \in L(M) \}
+$$
+We want all $0^n1^n \in L(M_0)$ ($M_0$ accepts every $0^n1^n$) iff M halts on w
+Just have $M_0$ accept everything?
+Proof that $\text{HALT} \leqslant_m \overline{L_2}$:
+HALT not co-recognizable so neither should be $\overline{L_2}$.
+
+Consider the TM $P$ "On input $\langle M, w \rangle:$
+1. Construct the TM $M_0$ as follows:
+	$M_0$ = "On input $x$:
+		1. Pass.
+		2. Run $M$ on $w$.
+		3. Accept."
+2. Return $\langle M_0 \rangle$. "
+
+Proof that $\langle M_0 \rangle \in \overline{L_2}$ iff $\langle M, w \rangle \in$ HALT
+- ($\impliedby$) Suppose that $\langle M, w \rangle \in$ HALT.
+	- Then for every input $x$, $M_0$ reaches line 2.
+	- When it does, $M$ will halt and $M_0$ will reach line 3 in which it accepts.
+	- So $M_0$ will accept every input.
+	- $\implies$ $M_0$ accepts all $0^n1^n, \forall n \in \mathbb{N}$
+	- $\implies \langle M_0 \rangle \in \overline{L_2}$
+- ($\implies$) Suppose that $\langle M, w \rangle \notin$ HALT
+	- Then for every input $x$, $M_0$ reaches line 2.
+	- When it does, $M$ will halt and $M_0$ will never reach line 3 and accept
+	- So $M_0$ will not accept any input.
+	- $\implies$ $M_0$ does not accept any $0^n1^n, \forall n \in \mathbb{N}$
+	- $\implies \langle M_0 \rangle \in L_2$
+As we know HALT is not co-recognizable, it must be that $L_2$ is not co-recognizable.
 # 3
+**Basically the same as 2?**
+Consider the TM $P$ "On input $\langle M, w \rangle:$
+1. Construct the TM $M_0$ as follows:
+	$M_0$ = "On input $x$:
+		1. Pass.
+		2. Run $M$ on $w$.
+		3. Accept."
+2. Return $\langle M_0 \rangle$. "
+
+Proof that $\langle M_0 \rangle \in L_3$ iff $\langle M, w \rangle \in$ HALT
+- ($\impliedby$) Suppose that $\langle M, w \rangle \in$ HALT.
+	- Then for every input $x$, $M_0$ reaches line 2.
+	- When it does, $M$ will halt and $M_0$ will reach line 3 in which it accepts.
+	- So $M_0$ will accept every input.
+	- $\implies$ $M_0$ accepts some $0^n1^n$ for some $n \in \mathbb{N}$
+	- $\implies \langle M_0 \rangle \in L_3$
+- ($\implies$) Suppose that $\langle M, w \rangle \notin$ HALT
+	- Then for every input $x$, $M_0$ reaches line 2.
+	- When it does, $M$ will halt and $M_0$ will never reach line 3 and accept
+	- So $M_0$ will not accept any input.
+	- $\implies$ $M_0$ does not accept any $0^n1^n, \forall n \in \mathbb{N}$
+	- $\implies \langle M_0 \rangle \notin L_3$
+As we know HALT is not co-recognizable, it must be that $L_3$ is not co-recognizable.
+
 # 4
+Language contains instances of tuples $\langle M, k \rangle$ such that there exists some string $w$ where $M$ accepts $w$ within $k$ steps.
+- Probably *recognizable*, since we can concretely say if accepts given a specific $w$
+- Probably *not co-recognizable*, since what requires proving no string is accepted which is generally not do-able (as there are infinitely many strings)
 # 5
+$$
+L_5 = \{ \langle M \rangle | \forall w \in \Sigma^*, w \in L(M) \lor \exists n \in \mathbb{N} \text{ such that } w = 0^n 1^n \}
+$$
+
 # 6
 **are be describing M itself or are we using M?**
 

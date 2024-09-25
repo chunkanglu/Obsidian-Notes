@@ -1,0 +1,3 @@
+- Construct complex objects step by step, producing different objects with same generic construction code
+	- Usually have some sort of *Director* class that sets the *Builder* interface that contains functions with steps and runs the necessary steps depending on what needs to be created
+- Replacement for having a lot of parameters in the constructor, but many parameters may not be used for most objects

@@ -1,0 +1,2 @@
+- Every class should only have one reason to change
+- Classes should only be about one entity, otherwise it should be split accordingly

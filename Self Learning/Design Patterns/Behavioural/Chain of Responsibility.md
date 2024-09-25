@@ -1,0 +1,4 @@
+- Pass requests along a chain of handlers
+- Think REST api middleware for stuff like auth
+	- But here you set the next handler as an attribute inside the current handler
+- Related somewhat to [[Composite]] pattern as it can form a chain of operations going from root to leaf or leaf to root

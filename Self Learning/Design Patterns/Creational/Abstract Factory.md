@@ -1,0 +1,2 @@
+- An interface with a bunch of creation methods like in the [[Factory Method]]
+- For when you have a line of classes/products to be created with different variants (as different concrete implementations)

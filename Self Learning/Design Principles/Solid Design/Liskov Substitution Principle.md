@@ -1,0 +1,2 @@
+- Any subclass should be able to replace/substitute the superclass without issue
+- This is more of a controversial one as some people don't believe this
